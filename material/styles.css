@@ -73,16 +73,14 @@ a img{
   width: 180px;
 }
 
-
 .astronomer-header {
   overflow: visible;
-  background-color: transparent;
 }
 .astronomer-header .material-icons {
   color: #767777 !important;
 }
 .astronomer-header .mdl-navigation__link {
-  color: #757575;
+  color: #FFF;
   font-weight: 700;
   font-size: 14px;
 }
@@ -347,7 +345,7 @@ a img{
   .astronomer-search-box .mdl-textfield__expandable-holder {
     width: 100%;
   }
-  
+
   .astronomer-header .mdl-layout__drawer-button {
     visibility: visible;
     background: transparent;
