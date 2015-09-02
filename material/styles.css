@@ -78,11 +78,9 @@ a img{
   overflow: visible;
   background-color: transparent;
 }
-
 .astronomer-header .material-icons {
   color: #767777 !important;
 }
-
 .astronomer-header .mdl-navigation__link {
   color: #757575;
   font-weight: 700;
@@ -103,10 +101,9 @@ a img{
   background-color: transparent !important;
   border-bottom: 4px solid transparent;
 }
-
-  .astronomer-navigation .mdl-navigation__link:hover {
+.astronomer-navigation .mdl-navigation__link:hover {
     border-bottom: 4px solid #F98D00;
-  }
+}
 
 .astronomer-search-box {
   -webkit-box-ordinal-group: 3;
@@ -201,13 +198,12 @@ a img{
   color: #8bc34a !important;
 }
 
-  .astronomer-link:hover {
-    color: #7cb342 !important;
-  }
-
-  .astronomer-link .material-icons {
-    position: relative;
-    top: 6px;
+.astronomer-link:hover {
+  color: #7cb342 !important;
+}
+.astronomer-link .material-icons {
+  position: relative;
+  top: 6px;
   }
 
 .astronomer-alt-link {
@@ -215,30 +211,26 @@ a img{
   color: #64ffda !important;
   font-size: 16px;
 }
-
-  .astronomer-alt-link:hover {
-    color: #00bfa5 !important;
-  }
-
-  .astronomer-alt-link .material-icons {
-    position: relative;
-    top: 6px;
-  }
+.astronomer-alt-link:hover {
+  color: #00bfa5 !important;
+}
+.astronomer-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
 
 .astronomer-customized-section {
   text-align: center;
 }
-
 .astronomer-customized-section-text {
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding: 80px 16px 0 16px;
 }
-
-  .astronomer-customized-section-text p {
-    padding-top: 16px;
-  }
+.astronomer-customized-section-text p {
+  padding-top: 16px;
+}
 
 .astronomer-customized-section-image {
   background: url('assets/images/astronomer-slide1.png') center top no-repeat;
@@ -252,82 +244,66 @@ a img{
   margin-left: auto;
   margin-right: auto;
 }
-
-  .astronomer-more-section .astronomer-section-title {
+.astronomer-more-section .astronomer-section-title {
     margin-left: 12px;
     padding-bottom: 24px;
-  }
+}
 
 .astronomer-card-container {
 }
-
-  .astronomer-card-container .mdl-card__media {
-    overflow: hidden;
-    background: transparent;
-  }
-
-    .astronomer-card-container .mdl-card__media img {
-      width: 100%;
-    }
-
-  .astronomer-card-container .mdl-card__title {
-    background: transparent;
-    height: auto;
-  }
-
-  .astronomer-card-container .mdl-card__title-text {
-    color: black;
-    height: auto;
-  }
-
-  .astronomer-card-container .mdl-card__supporting-text {
-    height: auto;
-    color: black;
-    padding-bottom: 48px;
-  }
-
-  .astronomer-card-container .mdl-card__actions {
-    position: absolute;
-    bottom: 0;
-  }
-
-  .astronomer-card-container .mdl-card__actions a {
-    border-top: none;
-    line-height: 32px;
-    font-size: 16px;
-  }
+.astronomer-card-container .mdl-card__media {
+  overflow: hidden;
+  background: transparent;
+}
+.astronomer-card-container .mdl-card__media img {
+    width: 100%;
+}
+.astronomer-card-container .mdl-card__title {
+  background: transparent;
+  height: auto;
+}
+.astronomer-card-container .mdl-card__title-text {
+  color: black;
+  height: auto;
+}
+.astronomer-card-container .mdl-card__supporting-text {
+  height: auto;
+  color: black;
+  padding-bottom: 48px;
+}
+.astronomer-card-container .mdl-card__actions {
+  position: absolute;
+  bottom: 0;
+}
+.astronomer-card-container .mdl-card__actions a {
+  border-top: none;
+  line-height: 32px;
+  font-size: 16px;
+}
 
 .astronomer-footer {
   background-color: #fafafa;
   position: relative;
 }
-
-  .astronomer-footer a:hover {
-    color: #8bc34a;
-  }
-
-  .astronomer-footer .mdl-mega-footer--top-section::after {
-    border-bottom: none;
-  }
-
-  .astronomer-footer .mdl-mega-footer--middle-section::after {
-    border-bottom: none;
-  }
-
-  .astronomer-footer .mdl-mega-footer--bottom-section {
-    position: relative;
-  }
-
-  .astronomer-footer .mdl-mega-footer--bottom-section a {
-    margin-right: 2em;
-  }
-
-  .astronomer-footer .mdl-mega-footer--right-section a .material-icons {
-    position: relative;
-    top: 6px;
-  }
-
-
+.astronomer-footer a:hover {
+  color: #8bc34a;
+}
+.astronomer-footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+.astronomer-footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+.astronomer-footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+.astronomer-footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+.astronomer-footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
 .astronomer-link-menu:hover {
   cursor: pointer;
 }
