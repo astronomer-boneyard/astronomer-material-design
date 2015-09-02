@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{@blog.title}}</title>
     <link rel="shortcut icon" href="material/assets/images/favicon.ico" />
-    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
-
-    <!-- Page styles -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
     <link rel="stylesheet" href="material/styles.css">
@@ -18,102 +15,13 @@
 
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <div class="astronomer-header mdl-layout__header mdl-layout__header--waterfall">
-        <div class="mdl-layout__header-row">
-          <span class="astronomer-title mdl-layout-title">
-            <img class="astronomer-logo-image" src="material/assets/images/astronomer-logo.png">
-          </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="astronomer-header-spacer mdl-layout-spacer"></div>
-          <div class="astronomer-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
-            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
-              <i class="material-icons">search</i>
-            </label>
-            <div class="mdl-textfield__expandable-holder">
-              <input class="mdl-textfield__input" type="text" id="search-field" />
-            </div>
-          </div>
-          <!-- Navigation -->
-          <div class="astronomer-navigation-container">
-            <nav class="astronomer-navigation mdl-navigation">
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Features</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Pricing</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Developer Hub</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Login</a>
-              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Sign Up</a>
-            </nav>
-          </div>
-          <span class="astronomer-mobile-title mdl-layout-title">
-            <img class="astronomer-logo-image" src="material/assets/images/astronomer-logo.png">
-          </span>
-        </div>
-      </div>
-
-<!--       Dropdown Nav Bar -->
-      <div class="astronomer-drawer mdl-layout__drawer">
-        <div class="astronomer-drawer-overlay"></div>
-        <span>
-          <img class="astronomer-logo-image" src="material/assets/images/astronomer-logo.png">
-        </span>
-
-        <nav class="mdl-navigation">
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">Resources</span>
-          <a class="mdl-navigation__link" href="">Official blog</a>
-          <a class="mdl-navigation__link" href="">Android on Google+</a>
-          <a class="mdl-navigation__link" href="">Android on Twitter</a>
-          <div class="android-drawer-separator"></div>
-          <span class="mdl-navigation__link" href="">For developers</span>
-          <a class="mdl-navigation__link" href="">App developer resources</a>
-          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-          <a class="mdl-navigation__link" href="">Android SDK</a>
-        </nav>
-      </div>
-
+      {{> header}}
       <div class="astronomer-content mdl-layout__content">
-
         {{{body}}}
-
-        <footer class="astronomer-footer mdl-mega-footer">
-          <div class="mdl-mega-footer--top-section">
-            <div class="mdl-mega-footer--left-section">
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-              &nbsp;
-              <button class="mdl-mega-footer--social-btn"></button>
-            </div>
-            <div class="mdl-mega-footer--right-section">
-              <a class="mdl-typography--font-light" href="#top">
-                Back to Top
-                <i class="material-icons">expand_less</i>
-              </a>
-            </div>
-          </div>
-
-          <div class="mdl-mega-footer--middle-section">
-            <p class="mdl-typography--font-light">Satellite imagery: © 2014 Astrium, DigitalGlobe</p>
-            <p class="mdl-typography--font-light">Some features and devices may not be available in all areas</p>
-          </div>
-
-          <div class="mdl-mega-footer--bottom-section">
-
-            <a class="astronomer-link astronomer-link-menu mdl-typography--font-light" id="developers-dropdown">
-              For Developers
-              <i class="material-icons">arrow_drop_up</i>
-            </a>
-            <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
-              <li class="mdl-menu__item">App Developer Resources</li>
-              <li class="mdl-menu__item">Astronomer SDK</li>
-            </ul>
-            <a class="astronomer-link mdl-typography--font-light" href="">Blog</a>
-            <a class="astronomer-link mdl-typography--font-light" href="">Privacy Policy</a>
-          </div>
-
-        </footer>
+        {{> footer}}
       </div>
-
     </div>
+
     <script src="material/material.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
