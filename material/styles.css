@@ -1,0 +1,405 @@
+/**
+ * Copyright 2015 Google Inc. All Rights Reserved.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+@font-face {
+  font-family: "And Black";
+  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+       url("fonts/and_black.woff") format('woff'),
+       url("fonts/and_black.ttf") format('truetype');
+}
+
+body {
+  margin: 0;
+}
+
+/* Disable ugly boxes around images in IE10 */
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.astronomer-search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.astronomer-header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.astronomer-fab {
+  position: absolute;
+  left: 49%;
+  bottom: 40px;
+  z-index: 3;
+  background: #F98D00 !important;
+  color: black !important;
+}
+
+.astronomer-mobile-title {
+  display: none !important;
+}
+
+
+.astronomer-logo-image {
+  height: 12px;
+  width: 180px;
+}
+
+
+.astronomer-header {
+  overflow: visible;
+  background-color: transparent;
+}
+
+.astronomer-header .material-icons {
+  color: #767777 !important;
+}
+
+.astronomer-header .mdl-navigation__link {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+
+.astronomer-search-box.is-focused ~ .astronomer-navigation-container {
+  opacity: 0;
+  width: 100px;
+}
+
+
+.astronomer-navigation .mdl-navigation__link {
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent !important;
+  border-bottom: 4px solid transparent;
+}
+
+  .astronomer-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #F98D00;
+  }
+
+.astronomer-search-box {
+  -webkit-box-ordinal-group: 3;
+  -webkit-order: 2;
+      -ms-flex-order: 2;
+          order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.astronomer-more-button {
+  -webkit-box-ordinal-group: 4;
+  -webkit-order: 3;
+      -ms-flex-order: 3;
+          order: 3;
+}
+
+.astronomer-header .mdl-layout__drawer-button {
+  visibility: hidden;
+  background: transparent;
+  color: #767777;
+}
+
+.astronomer-drawer {
+  border-right: none;
+  background: url('assets/images/astro-dino.jpg') center no-repeat;
+  background-size: auto 100%;
+}
+
+.astronomer-drawer-separator {
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
+
+.astronomer-drawer .mdl-navigation__link.mdl-navigation__link {
+  position: relative;
+  font-size: 14px;
+  color: #fff;
+}
+
+.astronomer-drawer span.mdl-navigation__link.mdl-navigation__link {
+  color: #8bc34a;
+}
+
+.astronomer-drawer .astronomer-logo-image {
+  position: relative;
+  top: 16px;
+  left: 6%;
+}
+
+.astronomer-drawer .astronomer-drawer-overlay {
+  position: absolute;
+  background-color: #000;
+  opacity: 0.5;
+  height: 100%;
+  width: 100%;
+}
+
+.astronomer-landing-section {
+  position: relative;
+  height: 650px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('assets/images/background-test.jpg') center 30% no-repeat;
+  background-size: cover;
+}
+
+.astronomer-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #F98D00;
+  font-weight: 300;
+}
+
+.astronomer-slogan {
+  font-size: 50px;
+  padding-top: 200px;
+  color: #fff;
+  text-shadow: 3px -3px 5px black;
+}
+
+.astronomer-sub-slogan {
+  font-size: 25px;
+  padding-top: 20px;
+  color: #fff;
+  text-shadow: 4px -2px 3px black;
+}
+
+.astronomer-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+
+  .astronomer-link:hover {
+    color: #7cb342 !important;
+  }
+
+  .astronomer-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.astronomer-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+  .astronomer-alt-link:hover {
+    color: #00bfa5 !important;
+  }
+
+  .astronomer-alt-link .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+.astronomer-customized-section {
+  text-align: center;
+}
+
+.astronomer-customized-section-text {
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 16px 0 16px;
+}
+
+  .astronomer-customized-section-text p {
+    padding-top: 16px;
+  }
+
+.astronomer-customized-section-image {
+  background: url('assets/images/astronomer-slide1.png') center top no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.astronomer-more-section {
+  padding: 80px 0;
+  max-width: 1044px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .astronomer-more-section .astronomer-section-title {
+    margin-left: 12px;
+    padding-bottom: 24px;
+  }
+
+.astronomer-card-container {
+}
+
+  .astronomer-card-container .mdl-card__media {
+    overflow: hidden;
+    background: transparent;
+  }
+
+    .astronomer-card-container .mdl-card__media img {
+      width: 100%;
+    }
+
+  .astronomer-card-container .mdl-card__title {
+    background: transparent;
+    height: auto;
+  }
+
+  .astronomer-card-container .mdl-card__title-text {
+    color: black;
+    height: auto;
+  }
+
+  .astronomer-card-container .mdl-card__supporting-text {
+    height: auto;
+    color: black;
+    padding-bottom: 48px;
+  }
+
+  .astronomer-card-container .mdl-card__actions {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .astronomer-card-container .mdl-card__actions a {
+    border-top: none;
+    line-height: 32px;
+    font-size: 16px;
+  }
+
+.astronomer-footer {
+  background-color: #fafafa;
+  position: relative;
+}
+
+  .astronomer-footer a:hover {
+    color: #8bc34a;
+  }
+
+  .astronomer-footer .mdl-mega-footer--top-section::after {
+    border-bottom: none;
+  }
+
+  .astronomer-footer .mdl-mega-footer--middle-section::after {
+    border-bottom: none;
+  }
+
+  .astronomer-footer .mdl-mega-footer--bottom-section {
+    position: relative;
+  }
+
+  .astronomer-footer .mdl-mega-footer--bottom-section a {
+    margin-right: 2em;
+  }
+
+  .astronomer-footer .mdl-mega-footer--right-section a .material-icons {
+    position: relative;
+    top: 6px;
+  }
+
+
+.astronomer-link-menu:hover {
+  cursor: pointer;
+}
+
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+  .astronomer-navigation-container {
+    display: none;
+  }
+
+.astronomer-drawer{
+  overflow: hidden;
+}
+
+  .astronomer-title {
+    display: none !important;
+  }
+
+  .astronomer-mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    top: 12px;
+    -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+            transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .astronomer-search-box.is-focused ~ .astronomer-mobile-title {
+    opacity: 0;
+  }
+
+  .astronomer-more-button {
+    display: none;
+  }
+
+  .astronomer-search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .astronomer-search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+  
+  .astronomer-header .mdl-layout__drawer-button {
+    visibility: visible;
+    background: transparent;
+    color: #767777;
+  }
+
+  .astronomer-slogan {
+    font-size: 26px;
+    margin: 0 16px;
+    padding-top: 24px;
+  }
+
+  .astronomer-sub-slogan {
+    font-size: 16px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
+  .astronomer-fab {
+    display: none;
+  }
+
+  .astronomer-wear-band-text {
+    margin-left: 0;
+    padding: 16px;
+  }
+
+  .astronomer-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}
