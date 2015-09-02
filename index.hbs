@@ -1,2 +1,50 @@
 {{!< default}}
 
+<a name="top"></a>
+<div class="astronomer-landing-section mdl-typography--text-center">
+  <a href="#more">
+    <button class="astronomer-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+      <i class="material-icons">expand_more</i>
+    </button>
+  </a>
+  <div>
+    <p class="astronomer-slogan">This is what you care about!</p>
+    <p class="astronomer-sub-slogan">No, really! It is!</p>
+  </div>
+</div>
+<div class="astronomer-customized-section">
+  <div class="astronomer-customized-section-text">
+    <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
+    <p class="mdl-typography--font-light">
+      Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
+      <br>
+      <a href="" class="astronomer-link mdl-typography--font-light">Customise your phone</a>
+    </p>
+  </div>
+  <div class="astronomer-customized-section-image"></div>
+</div>
+<div class="astronomer-more-section">
+  <a name="more"></a>
+  <div class="astronomer-section-title mdl-typography--display-1-color-contrast">More from astronomer</div>
+  <div class="astronomer-card-container mdl-grid">
+    {{#foreach posts}}
+        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+          <div class="mdl-card__media">
+            <img src="{{image}}">
+          </div>
+          <div class="mdl-card__title">
+             <h4 class="mdl-card__title-text">{{{title}}}</h4>
+          </div>
+          <div class="mdl-card__supporting-text">
+            <span class="mdl-typography--font-light mdl-typography--subhead">{{excerpt characters="80"}}</span>
+          </div>
+          <div class="mdl-card__actions">
+             <a class="astronomer-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="/tag/{{slug}}">
+               Read On...
+               <i class="material-icons">chevron_right</i>
+             </a>
+          </div>
+        </div>
+    {{/foreach}}
+  </div>
+</div>
