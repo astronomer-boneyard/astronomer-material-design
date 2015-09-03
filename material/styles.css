@@ -165,21 +165,38 @@ a img{
   text-align: center;
   position: relative; 
   bottom:600px;
-
 }
 .landing-page-form .astronomer-slogan {
   position: relative;
   font-size: 50px;
   color: #F98D00;
-  text-shadow: 3px -3px 5px black;
 }
-.landing-page-form .astronomer-email-form{
-  position: relative;
+
+.landing-page-form .astronomer-email-form {
+  padding: 10px 0px 20px 0px;
+}
+/*Color for input and bottom bar on the top form*/
+.landing-page-form .astronomer-textfield__input{
+  border-bottom:1px solid rgb(249,141,0);
+  color: rgb(249,141,0);
+}
+/*Color for label in 'resting mode'*/
+.landing-page-form .astronomer-textfield__label{
+  color: rgb(249,141,0);
+}
+/*Color for label when selected*/
+.landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
+.landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
+  color: rgb(249,141,0);
+}
+.landing-page-form .astronomer-textfield__label:after {
+  background-color: rgb(249,141,0);
 }
 .landing-page-form .astronomer-email-button{
   position: relative;
-  background-color: #fff;
-  width: 150px;
+  background-color: rgb(249,141,0);
+  color: #fff;
+  width: 250px;
 }
 
 .astronomer-sub-slogan {
