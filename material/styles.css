@@ -21,6 +21,12 @@
        url("fonts/and_black.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "Avenir";
+  src: url("fonts/avenir_light.otf") format('opentype');
+  font-weight: light;
+}
+
 body {
   margin: 0;
 }
@@ -77,12 +83,18 @@ a img{
   overflow: visible;
 }
 .astronomer-header .material-icons {
-  color: #767777 !important;
+  color: #897e66 !important;
 }
-.astronomer-header .mdl-navigation__link {
-  color: #FFF;
+.custom-header .mdl-navigation__link {
+  color: #897e66;
   font-weight: 700;
   font-size: 14px;
+}
+.custom-header .astronomer-sign-up{
+  color: #f98d00;
+}
+.astronomer-navigation .mdl-navigation__link:hover {
+  color: #f3d1a5;
 }
 
 
@@ -98,25 +110,6 @@ a img{
   line-height: 68px;
   background-color: transparent !important;
   border-bottom: 4px solid transparent;
-}
-.astronomer-navigation .mdl-navigation__link:hover {
-    border-bottom: 4px solid #F98D00;
-}
-
-.astronomer-search-box {
-  -webkit-box-ordinal-group: 3;
-  -webkit-order: 2;
-      -ms-flex-order: 2;
-          order: 2;
-  margin-left: 16px;
-  margin-right: 16px;
-}
-
-.astronomer-more-button {
-  -webkit-box-ordinal-group: 4;
-  -webkit-order: 3;
-      -ms-flex-order: 3;
-          order: 3;
 }
 
 .astronomer-header .mdl-layout__drawer-button {
@@ -150,7 +143,7 @@ a img{
 .astronomer-drawer .astronomer-logo-image {
   position: relative;
   top: 16px;
-  left: 6%;
+  left: 5vw;
 }
 
 .astronomer-drawer .astronomer-drawer-overlay {
@@ -164,39 +157,62 @@ a img{
 .landing-page-form {
   text-align: center;
   position: relative; 
-  bottom:600px;
+  bottom:70vh;
+  text-align: left;
+  padding-left: 5vw;
+
 }
 .landing-page-form .astronomer-slogan {
-  position: relative;
-  font-size: 50px;
-  color: #F98D00;
+  line-height: 120%;
+  font-size: 40px;
+  max-width: 700px;
+  color: #f3d1a5;
+  font-family: "Avenir";
 }
 
 .landing-page-form .astronomer-email-form {
-  padding: 10px 0px 20px 0px;
+  padding: 30px 0px 30px 0px;
 }
 /*Color for input and bottom bar on the top form*/
 .landing-page-form .astronomer-textfield__input{
-  border-bottom:1px solid rgb(249,141,0);
-  color: rgb(249,141,0);
+  border-bottom: 2px solid #897e66;
+  color: #f98d00;
+  width: 400px;
+  font-size: 25px;
+  line-height: 110%;
 }
-/*Color for label in 'resting mode'*/
+/*Label in 'resting mode'*/
 .landing-page-form .astronomer-textfield__label{
-  color: rgb(249,141,0);
+  color: #897e66;
+  font-size: 35px;
+  margin-left: 10px;
+  margin-top: -10px;
+  line-height: 100%;
+
 }
+
+
 /*Color for label when selected*/
 .landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
 .landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
-  color: rgb(249,141,0);
+  color: #897e66;  
+  border-bottom: #897e66;
+  left: -10px;
+  font-size: 18px;
 }
 .landing-page-form .astronomer-textfield__label:after {
-  background-color: rgb(249,141,0);
+  background-color: #897e66;
 }
 .landing-page-form .astronomer-email-button{
   position: relative;
-  background-color: rgb(249,141,0);
-  color: #fff;
-  width: 250px;
+  width: 120px;
+  height: 50px;
+  background-color:  #f98d00;
+  color: #000;
+  font-family: "Avenir";
+  font-size: 25px;
+  text-transform: none;
+  top: -10px;
 }
 
 .astronomer-sub-slogan {
@@ -215,15 +231,16 @@ a img{
 
 .astronomer-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #f98d00 !important;
 }
 
 .astronomer-link:hover {
-  color: #7cb342 !important;
+  color: #f3d1a5 !important;
 }
 .astronomer-link .material-icons {
   position: relative;
   top: 6px;
+  color: #f98d00;
   }
 
 .astronomer-alt-link {
@@ -374,10 +391,12 @@ a img{
     color: #767777;
   }
 
-  .astronomer-slogan {
-    font-size: 26px;
+  .landing-page-form {
     margin: 0 16px;
-    padding-top: 24px;
+  }
+
+  .landing-page-form .astronomer-slogan {
+    font-size: 28px;
   }
 
   .astronomer-sub-slogan {
