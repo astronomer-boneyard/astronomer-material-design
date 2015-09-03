@@ -161,27 +161,25 @@ a img{
   width: 100%;
 }
 
-.astronomer-landing-section {
+.landing-page-form {
+  text-align: center;
+  position: relative; 
+  bottom:600px;
+
+}
+.landing-page-form .astronomer-slogan {
   position: relative;
-  height: 650px;
-  width: auto;
-  background-color: #f3f3f3;
-  background: url('assets/images/background-test.jpg') center 30% no-repeat;
-  background-size: cover;
-}
-
-.astronomer-font {
-  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
-  line-height: 1;
-  color: #F98D00;
-  font-weight: 300;
-}
-
-.astronomer-slogan {
   font-size: 50px;
-  padding-top: 200px;
-  color: #fff;
+  color: #F98D00;
   text-shadow: 3px -3px 5px black;
+}
+.landing-page-form .astronomer-email-form{
+  position: relative;
+}
+.landing-page-form .astronomer-email-button{
+  position: relative;
+  background-color: #fff;
+  width: 150px;
 }
 
 .astronomer-sub-slogan {
@@ -189,6 +187,13 @@ a img{
   padding-top: 20px;
   color: #fff;
   text-shadow: 4px -2px 3px black;
+}
+
+.astronomer-font {
+  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
+  line-height: 1;
+  color: #F98D00;
+  font-weight: 300;
 }
 
 .astronomer-link {
