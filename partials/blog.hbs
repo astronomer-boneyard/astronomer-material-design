@@ -5,9 +5,17 @@
 	<div class="astronomer-section-title mdl-typography--display-1-color-contrast">
 	  More from the Astronomers
 	</div>
-	<div class="astronomer-card-container mdl-grid">
-	  {{#foreach posts}}
-		{{> post_card }}
-	  {{/foreach}}
-	</div>	
+	<div class="post-layout">
+		<div class="astronomer-card-container mdl-grid">
+		  {{#foreach posts}}
+			{{> post_card }}
+		  {{/foreach}}
+		</div>
+		<div class="visit-blog">
+			<a class="astronomer-link" href="">
+				Visit the Blog
+				<i class="material-icons">chevron_right</i>
+			</a>
+		</div>
+	</div>
 </div>
