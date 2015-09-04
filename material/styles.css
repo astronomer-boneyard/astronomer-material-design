@@ -372,8 +372,9 @@ by moving the previous section up.*/
 
   .astronomer-mobile-title {
     display: block !important;
-    position: relative;
-    top: 200px;
+    position: absolute;
+    left: calc(50% - 95px);
+    top: 15px;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
