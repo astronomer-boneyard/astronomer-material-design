@@ -285,10 +285,21 @@ by moving the previous section up.*/
 .astronomer-blog-section {
   background-color: #f3d1a5;
   height: 110vh;
+  padding-top: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 2;
 }
 
+.astronomer-blog-section .blog-background {
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+  top: -110vh;
+  z-index: -2;
+}
 .astronomer-blog-section .astronomer-badge {
-  padding-top: 60px;
   position: relative;
   left: 45vw;
   padding-bottom: 24px;
@@ -301,7 +312,6 @@ by moving the previous section up.*/
 
 .astronomer-card-container {
   position: relative;
-  padding-left: 250px;
 }
 
 .post-cell{
@@ -340,9 +350,24 @@ by moving the previous section up.*/
 }
 
 .astronomer-footer {
+  z-index: 2;
   background-color: #1a181e;
   position: relative;
 }
+
+
+.footer-sub-left,
+.footer-sub-middle,
+.footer-sub-right {
+  padding-left: 3vw;
+  padding-top: 3vh;
+}
+
+.footer-logo,
+.mdl-mega-footer--right-section {
+  padding-top: 3vh;
+}
+
 .astronomer-footer a:hover {
   color: #f3d1a5;
 }
