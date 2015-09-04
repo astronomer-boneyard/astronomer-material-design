@@ -60,7 +60,6 @@ a img{
   display: none !important;
 }
 
-
 .astronomer-logo-image {
   height: 12px;
   width: 180px;
@@ -142,13 +141,14 @@ a img{
   top: 16px;
 }
 
+
 /*Hack to move the initial form in front of sky. Should be changed.*/
 .landing-page-form {
   position: relative; 
-  bottom:70vh;
+  top:-70vh;
   text-align: left;
   padding-left: 10%;
-
+  height: 0;
 }
 .landing-page-form .astronomer-slogan {
   line-height: 120%;
@@ -247,8 +247,8 @@ by moving the previous section up.*/
   position: relative;
   height: 100vh;
   background-color: #1a181e;
-  top:-350px;
-}
+/*  top:-350px;
+*/}
 
 .horizon-line{
   position: relative;
@@ -283,17 +283,14 @@ by moving the previous section up.*/
 }
 
 .astronomer-blog-section {
-  position: relative;
-  top: -350px;
   background-color: #f3d1a5;
-  margin-left: auto;
-  margin-right: auto;
   height: 110vh;
 }
 
 .astronomer-blog-section .astronomer-badge {
   padding-top: 60px;
-  margin-left: 45%;
+  position: relative;
+  left: 45vw;
   padding-bottom: 24px;
 }
 
@@ -303,9 +300,14 @@ by moving the previous section up.*/
 }
 
 .astronomer-card-container {
-  margin-left: 20%;
+  position: relative;
+  padding-left: 250px;
 }
 
+.post-cell{
+  margin:2vw;
+  width: 300px;
+}
 
 .astronomer-card-container .mdl-card__media {
   overflow: hidden;
@@ -364,13 +366,6 @@ by moving the previous section up.*/
   cursor: pointer;
 }
 
-.astronomer-playlist {
-  font-size: 22px;
-  font-weight: bold;
-  font-family: "Avenir";
-  padding-left: 1.5%;
-  top: 4%;
-}
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
@@ -402,13 +397,12 @@ by moving the previous section up.*/
   }
 
 
-.landing-page-form {
+/*.landing-page-form {
   position: relative; 
-  bottom:70vh;
   text-align: left;
   padding-left: 10%;
   padding-right: 3%;
-}
+}*/
 
 .landing-page-form .astronomer-slogan {
    font-size: 2em;
@@ -429,7 +423,7 @@ by moving the previous section up.*/
   font-size: 1.5em;
   width: 90%;
   margin-left: 5px;
-  margin-top: -px;
+  margin-top: -10px;
   line-height: 100%;
 }
 

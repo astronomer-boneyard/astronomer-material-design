@@ -18,20 +18,8 @@
       Submit
     </button>
   </div>
-</div>
 
-{{>info}}
+  {{>info}}
+  {{> blog}}
 
- <div class="astronomer-blog-section">
-  <span>
-    <img class="astronomer-badge" src="/material/assets/images/astronomer-badge.png">
-  </span>
-  <div class="astronomer-section-title mdl-typography--display-1-color-contrast">
-    More from astronomer
-  </div>
-  <div class="astronomer-card-container mdl-grid">
-    {{#foreach posts}}
-      {{> post_card }}
-    {{/foreach}}
-  </div>
 </div>
