@@ -187,12 +187,15 @@ a img{
 .landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
   color: #897e66;  
   left: -10px;
+  top: 10px;
   font-size: 18px;
+  opacity: 0.5;
 }
+
 .landing-page-form .astronomer-textfield__label:after {
   background-color: #f98d00;
-
 }
+
 .landing-page-form .astronomer-email-button{
   position: relative;
   width: 120px;
