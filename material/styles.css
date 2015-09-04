@@ -355,6 +355,12 @@ by moving the previous section up.*/
   cursor: pointer;
 }
 
+.astronomer-playlist {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Avenir";
+  padding-left: 1.5%;
+}
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
