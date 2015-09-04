@@ -245,7 +245,7 @@ a img{
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 100vh;
+  height: 60em;
   background-color: #1a181e;
 /*  top:-350px;
 */}
@@ -283,22 +283,14 @@ by moving the previous section up.*/
 }
 
 .astronomer-blog-section {
-  background-color: #f3d1a5;
-  height: 110vh;
+  background: url('/material/assets/images/blog-background.png');
+  height: 65em;
   padding-top: 60px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  z-index: 2;
 }
 
-.astronomer-blog-section .blog-background {
-  position: relative;
-  height: 120vh;
-  width: 100vw;
-  top: -110vh;
-  z-index: -2;
-}
 .astronomer-blog-section .astronomer-badge {
   position: relative;
   left: 45vw;
@@ -350,7 +342,6 @@ by moving the previous section up.*/
 }
 
 .astronomer-footer {
-  z-index: 2;
   background-color: #1a181e;
   position: relative;
 }
