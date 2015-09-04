@@ -156,12 +156,12 @@ a img{
   width: 100%;
 }
 
+/*Hack to move the initial form in front of sky. Should be changed.*/
 .landing-page-form {
-  text-align: center;
   position: relative; 
   bottom:70vh;
   text-align: left;
-  padding-left: 5vw;
+  padding-left: 10%;
 
 }
 .landing-page-form .astronomer-slogan {
@@ -259,28 +259,45 @@ a img{
   top: 6px;
 }
 
-.astronomer-customized-section {
-  text-align: center;
-}
-.astronomer-customized-section-text {
-  max-width: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 80px 16px 0 16px;
-}
-.astronomer-customized-section-text p {
-  padding-top: 16px;
-}
-
+/*Jacking the following section up to fill the white space left
+by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 600px;
-  background-color: #1A181E;
+  height: 780px;
+  background-color: #1a181e;
   top:-350px;
 }
+
 .horizon-line{
   position: relative;
   top:-90px;
+}
+
+.astronomer-info .learn-more-text{
+  position: relative;
+  color: #897e66;
+  max-width: 700px;
+  font-family: "Avenir";
+  padding-left: 10%;
+  margin-top: 80px;
+}
+
+.astronomer-info .learn-more-text p {
+  font-size: 32px;
+  line-height: 150%;
+}
+.astronomer-info .learn-more-text span.astronomer-data-text{
+  color: #009c8d;
+}
+
+.astronomer-info .learn-more-text a {
+  font-size: 25px;
+}
+
+/*Nasty hack to get the learn more to align*/
+.astronomer-info .learn-more-text .astronomer-reverse-endent {
+  position: relative;
+  left: -15px;
 }
 
 .astronomer-more-section {
@@ -289,6 +306,7 @@ a img{
   margin-left: auto;
   margin-right: auto;
 }
+
 .astronomer-more-section .astronomer-section-title {
     margin-left: 12px;
     padding-bottom: 24px;
