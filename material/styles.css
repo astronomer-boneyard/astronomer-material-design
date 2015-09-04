@@ -55,14 +55,6 @@ a img{
   width: auto;
 }
 
-.astronomer-fab {
-  position: absolute;
-  left: 49%;
-  bottom: 40px;
-  z-index: 3;
-  background: #F98D00 !important;
-  color: black !important;
-}
 
 .astronomer-mobile-title {
   display: none !important;
@@ -300,19 +292,23 @@ by moving the previous section up.*/
   left: -15px;
 }
 
-.astronomer-more-section {
-  padding: 80px 0;
-  max-width: 1044px;
+.astronomer-blog-section {
+  position: relative;
+  top: -350px;
+  background-color: #f3d1a5;
   margin-left: auto;
   margin-right: auto;
+  height: 800px;
 }
 
-.astronomer-more-section .astronomer-section-title {
-    margin-left: 12px;
-    padding-bottom: 24px;
+.astronomer-blog-section .astronomer-section-title {
+  padding-top: 30px;
+  margin-left: 10%;
+  padding-bottom: 24px;
 }
 
 .astronomer-card-container {
+  margin-left: 10%;
 }
 .astronomer-card-container .mdl-card__media {
   overflow: hidden;
@@ -378,9 +374,9 @@ by moving the previous section up.*/
     display: none;
   }
 
-.astronomer-drawer{
-  overflow: hidden;
-}
+  .astronomer-drawer{
+    overflow: hidden;
+  }
 
   .astronomer-title {
     display: none !important;
@@ -395,23 +391,8 @@ by moving the previous section up.*/
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  .astronomer-search-box.is-focused ~ .astronomer-mobile-title {
-    opacity: 0;
-  }
 
-  .astronomer-more-button {
-    display: none;
-  }
-
-  .astronomer-search-box.is-focused {
-    width: calc(100% - 48px);
-  }
-
-  .astronomer-search-box .mdl-textfield__expandable-holder {
-    width: 100%;
-  }
-
-  .astronomer-header .mdl-layout__drawer-button {
+  .custom-header .mdl-layout__drawer-button {
     visibility: visible;
     background: transparent;
     color: #767777;
@@ -433,6 +414,14 @@ by moving the previous section up.*/
 
   .astronomer-fab {
     display: none;
+  }
+
+  .astronomer-blog-section .astronomer-section-title {
+    margin-left: 2%;
+  }
+
+  .astronomer-card-container {
+    margin-left: 0%;
   }
 
   .astronomer-wear-band-text {
