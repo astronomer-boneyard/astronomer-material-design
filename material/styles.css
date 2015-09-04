@@ -272,10 +272,15 @@ a img{
   padding-top: 16px;
 }
 
-.astronomer-customized-section-image {
-  background: url('assets/images/astronomer-slide1.png') center top no-repeat;
-  background-size: cover;
-  height: 400px;
+.astronomer-info{
+  position: relative;
+  height: 600px;
+  background-color: #1A181E;
+  top:-350px;
+}
+.horizon-line{
+  position: relative;
+  top:-90px;
 }
 
 .astronomer-more-section {
