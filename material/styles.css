@@ -108,7 +108,7 @@ a img{
 .astronomer-drawer {
   border-right: none;
   background: url('assets/images/astro-dino.jpg') center no-repeat;
-  background-size: auto auto; 
+  background-size: auto auto;
 }
 
 .astronomer-drawer .astronomer-drawer-overlay {
