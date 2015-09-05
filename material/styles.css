@@ -299,6 +299,7 @@ by moving the previous section up.*/
   font-family: "Avenir";
   font-size: 25px;
   padding-right: 90px;
+  padding-bottom:50px;
   position: relative;
 }
 
@@ -319,7 +320,6 @@ by moving the previous section up.*/
 
 .astronomer-blog-section {
   background: url('/material/assets/images/blog-background.png');
-  height: 65em;
   padding-top: 60px;
   position: relative;
   margin-left: auto;
