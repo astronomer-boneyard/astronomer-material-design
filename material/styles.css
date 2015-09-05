@@ -154,6 +154,7 @@ a img{
   line-height: 120%;
   font-size: 40px;
   max-width: 700px;
+  margin-right:30px;
   color: #f3d1a5;
   font-family: "Avenir";
 }
@@ -330,7 +331,7 @@ by moving the previous section up.*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 12px;
+  padding-bottom: 40px;
 }
 
 .astronomer-blog-section .astronomer-section-title {
@@ -347,6 +348,7 @@ by moving the previous section up.*/
 .post-cell{
   margin:2%;
   width: 300px;
+  background-color: #F9E6CA;
 }
 
 .astronomer-card-container .mdl-card__media {
