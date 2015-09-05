@@ -144,13 +144,14 @@ a img{
 
 .landing-page-form {
   position: absolute;
-  top:30vh;
+  padding-top:30vh;
   text-align: left;
   padding-left: 10%;
   height: 90vh;
   width: 100%;
 }
-.landing-page-form .astronomer-slogan {
+.landing-page-form .astronomer-slogan { 
+  margin-top: -70px;
   line-height: 120%;
   font-size: 40px;
   max-width: 700px;
@@ -250,7 +251,7 @@ a img{
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 1400px;
+  height: 200vh;
   background-color: #1a181e;
   top: 90vh;
 }
@@ -540,47 +541,51 @@ by moving the previous section up.*/
     color: #767777;
   }
 
-.landing-page-form .astronomer-slogan {
-   font-size: 2em;
-}
 
-.landing-page-form .astronomer-email-form {
-  padding: 10px 0px 10px 0px;
-}
-/*Color for input and bottom bar on the top form*/
-.landing-page-form .astronomer-textfield__input{
-  border-bottom: 2px solid #897e66;
-  width: 90%;
-  font-size: 1em;
-  line-height: 120%;
-}
-/*Label in 'resting mode'*/
-.landing-page-form .astronomer-textfield__label{
-  font-size: 1.5em;
-  width: 90%;
-  margin-left: 5px;
-  margin-top: -10px;
-  line-height: 100%;
-}
+  #sky {
+    width: 100%;
+  }
+  
+  .landing-page-form .astronomer-slogan {
+     font-size: 1.5em;
+     padding-right: 10%;
+  }
 
-/*Color for label when selected*/
-.landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
-.landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
-  left: -10px;
-  top: 10px;
-  font-size: 1em;
-  opacity: 0.5;
-}
+  .landing-page-form .astronomer-email-form {
+    padding: 10px 0px 10px 0px;
+  }
+  /*Color for input and bottom bar on the top form*/
+  .landing-page-form .astronomer-textfield__input{
+    border-bottom: 2px solid #897e66;
+    width: 90%;
+    font-size: 1em;
+    line-height: 120%;
+  }
+  /*Label in 'resting mode'*/
+  .landing-page-form .astronomer-textfield__label{
+    font-size: 1.5em;
+    width: 90%;
+    margin-left: 5px;
+    margin-top: -10px;
+    line-height: 100%;
+  }
+
+  /*Color for label when selected*/
+  .landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
+  .landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
+    left: -10px;
+    top: 10px;
+    font-size: 1em;
+    opacity: 0.5;
+  }
 
 .landing-page-form .astronomer-textfield__label:after{
   background-color: #f98d00;
 }
 
 .landing-page-form .astronomer-email-button{
-  position: relative;
   width: 120px;
   height: 50px;
-  font-family: "Avenir";
   font-size: 25px;
   text-transform: none;
   top: -10px;
