@@ -145,10 +145,10 @@ a img{
 /*Hack to move the initial form in front of sky. Should be changed.*/
 .landing-page-form {
   position: relative;
-  top:-70vh;
+  top:20vh;
   text-align: left;
   padding-left: 10%;
-  height: 0;
+  height: 90vh;
 }
 .landing-page-form .astronomer-slogan {
   line-height: 120%;
@@ -252,8 +252,7 @@ by moving the previous section up.*/
   position: relative;
   height: 60em;
   background-color: #1a181e;
-/*  top:-350px;
-*/}
+}
 
 .horizon-line{
   position: relative;
@@ -386,25 +385,51 @@ by moving the previous section up.*/
   font-size: 16px;
 }
 
-
-/*CSS for the posts themselves*/
-.astronomer-content .post-content{
-  font-family: "Avenir";
-  padding-left:10%;
-  padding-right: 10%;
-  padding-bottom: 12%;
+#sky {
+  position: fixed;
+  width: 99%;
 }
 
+/*CSS for the posts themselves*/
+.astronomer-content .content{
+  position: relative;
+}
+.astronomer-content .post-content{
+  font-family: "Avenir";
+  padding: 3% 10% 12% 10%;
+  color: #897e66;
+  position: relative;
+}
+
+.astronomer-content .post-content h2 {
+  position: relative;
+}
+
+.astronomer-content .post-content p {
+  font-size: 16px;
+  position: relative;
+}
+
+.astronomer-content .post-content a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style: italic;
+  color: #f98d00;
+}
 .astronomer-content .post-content img{
   max-width: 80%;
-
+  position: relative;
+  padding-left: 10%;
 }
 
 .astronomer-content .post-content table{
   width: 80%;
   left: 7%;
   position: relative;
+  background: transparent;
 }
+
+/*CSS for the footer*/
 .astronomer-footer {
   background-color: #1a181e;
   position: relative;
@@ -559,13 +584,18 @@ by moving the previous section up.*/
 }
 
 
-  .astronomer-blog-section .astronomer-section-title {
-    margin-left: 2%;
-  }
+.astronomer-blog-section .astronomer-section-title {
+  margin-left: 2%;
+}
 
-  .astronomer-card-container {
-    margin-left: 0%;
-  }
+.astronomer-card-container {
+  margin-left: 0%;
+}
+
+.astronomer-content .post-content{
+  padding-top: 10%;
+}
+
 
   .astronomer-footer .mdl-mega-footer--bottom-section {
     display: none;
