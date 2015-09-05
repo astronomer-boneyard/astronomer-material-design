@@ -142,13 +142,13 @@ a img{
 }
 
 
-/*Hack to move the initial form in front of sky. Should be changed.*/
 .landing-page-form {
-  position: relative;
-  top:20vh;
+  position: absolute;
+  top:30vh;
   text-align: left;
   padding-left: 10%;
   height: 90vh;
+  width: 100%;
 }
 .landing-page-form .astronomer-slogan {
   line-height: 120%;
@@ -250,8 +250,9 @@ a img{
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 60em;
+  height: 1400px;
   background-color: #1a181e;
+  top: 90vh;
 }
 
 .horizon-line{
@@ -403,6 +404,27 @@ by moving the previous section up.*/
 
 .astronomer-content .post-content h2 {
   position: relative;
+  font-size: 40px;
+}
+
+.astronomer-content .post-content h3 {
+  position: relative;
+  font-size: 35px;
+}
+
+.astronomer-content .post-content h4 {
+  position: relative;
+  font-size: 30px;
+}
+
+.astronomer-content .post-content h5 {
+  position: relative;
+  font-size: 25px;
+}
+
+.astronomer-content .post-content h6 {
+  position: relative;
+  font-size: 20px;
 }
 
 .astronomer-content .post-content p {
@@ -517,14 +539,6 @@ by moving the previous section up.*/
     background: transparent;
     color: #767777;
   }
-
-
-/*.landing-page-form {
-  position: relative;
-  text-align: left;
-  padding-left: 10%;
-  padding-right: 3%;
-}*/
 
 .landing-page-form .astronomer-slogan {
    font-size: 2em;
