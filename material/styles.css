@@ -392,15 +392,19 @@ by moving the previous section up.*/
   font-family: "Avenir";
   padding-left:10%;
   padding-right: 10%;
+  padding-bottom: 12%;
 }
 
 .astronomer-content .post-content img{
   max-width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+
 }
 
+.astronomer-content .post-content table{
+  width: 80%;
+  left: 7%;
+  position: relative;
+}
 .astronomer-footer {
   background-color: #1a181e;
   position: relative;
