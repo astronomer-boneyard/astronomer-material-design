@@ -395,13 +395,57 @@ by moving the previous section up.*/
   width: 99%;
 }
 
+/*CSS for the all post page*/
+.astronomer-more-section{
+  padding: 10% 10% 10% 10%;
+  margin-top: -80px;
+  background: url('assets/images/astronomer-slide1.png') center no-repeat;
+  background-size: auto 100%;
+  color: #fff;
+}
+
+.astronomer-more-section .post-excerpt{
+  margin-top: 5%;
+  background-color: #897e66;
+  border-style: solid;
+  border-color: #fff;
+  border-width: 2px;
+}
+
+.astronomer-more-section .post-excerpt h2{
+  padding-left: 20px;
+}
+
+.astronomer-more-section .post-excerpt p{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.astronomer-more-section .post-excerpt a{
+  position: relative;
+  left: 20px;
+  bottom: 10px;
+  text-decoration: none;
+  color: #f98d00;
+  font-size: 20px;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.astronomer-more-section .post-excerpt a:hover{
+  color: #f3d1a5;
+}
 /*CSS for the posts themselves*/
 .astronomer-content .content{
   position: relative;
   background: url('assets/images/astronomer-slide1.png') center no-repeat;
   background-size: auto 100%;
-  margin-top: -80px;
+  margin-top: -70px;
 }
+
 .astronomer-content .post-content{
   max-width:800px;
   margin: 0 auto;
