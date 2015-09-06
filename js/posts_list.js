@@ -1,4 +1,4 @@
-// Create this file inside /js/ directory!
+
 
 var getRecentPosts = function(amount, callback) {
 	var rss = $("link[type='application/rss+xml']").attr("href");
@@ -40,7 +40,15 @@ $(function() {
 			var post = posts[i];
 			var excerpt = crop($("<div/>").html(post.content).text(), num_words); // strip html and crop string!
 
-		    template += "<article class='post-excerpt'><span><time>" + post.date.substr(5, 11) + "</time><h2>" + post.title + "</h2><hr /><p>" + excerpt + "</p></span><a class='pure-button button-s green-green' href='" + post.url + "'>lesen</a></article>";
+		    template += "<article class='post-excerpt'><span><time>" 
+		    		+ post.date.substr(5, 11) 
+		    		+ "</time><h2>" 
+		    		+ post.title 
+		    		+ "</h2><hr /><p>" 
+		    		+ excerpt 
+		    		+ "</p></span><a class='pure-button button-s green-green' href='" 
+		    		+ post.url 
+		    		+ "'>lesen</a></article>";
 		}
 		$("#posts_list").html(template)
 	});
