@@ -5,26 +5,5 @@
   <a name="more"></a>
   <div class="astronomer-section-title mdl-typography--display-1-color-contrast">From the Astronomers</div>
   {{> posts_list}}
-  
-  <div class="astronomer-card-container mdl-grid">
-    {{#foreach @blog.posts}}
-        <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-          <div class="mdl-card__media">
-            <img src="{{image}}">
-          </div>
-          <div class="mdl-card__title">
-             <h4 class="mdl-card__title-text">{{{title}}}</h4>
-          </div>
-          <div class="mdl-card__supporting-text">
-            <span class="mdl-typography--font-light mdl-typography--subhead">{{excerpt characters="80"}}</span>
-          </div>
-          <div class="mdl-card__actions">
-             <a class="astronomer-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="/tag/{{slug}}">
-               Read On...
-               <i class="material-icons">chevron_right</i>
-             </a>
-          </div>
-        </div>
-    {{/foreach}}
-  </div>
+
 </div>
