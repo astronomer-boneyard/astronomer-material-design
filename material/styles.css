@@ -150,7 +150,7 @@ a img{
   height: 90vh;
   width: 100%;
 }
-.landing-page-form .astronomer-slogan { 
+.landing-page-form .astronomer-slogan {
   margin-top: -70px;
   line-height: 120%;
   font-size: 40px;
@@ -397,6 +397,8 @@ by moving the previous section up.*/
   position: relative;
 }
 .astronomer-content .post-content{
+  max-width:800px;
+  margin: 0 auto;
   font-family: "Avenir";
   padding: 3% 10% 12% 10%;
   color: #897e66;
@@ -440,9 +442,9 @@ by moving the previous section up.*/
   color: #f98d00;
 }
 .astronomer-content .post-content img{
-  max-width: 80%;
+  max-width: 100%;
   position: relative;
-  padding-left: 10%;
+  margin-bottom: 30px;
 }
 
 .astronomer-content .post-content table{
@@ -545,7 +547,7 @@ by moving the previous section up.*/
   #sky {
     width: 100%;
   }
-  
+
   .landing-page-form .astronomer-slogan {
      font-size: 1.5em;
      padding-right: 10%;
