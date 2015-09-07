@@ -448,7 +448,7 @@ by moving the previous section up.*/
   margin-top: -70px;
 }
 
-.astronomer-content .post-content{
+.astronomer-content .post-content {
   max-width:800px;
   margin: 0 auto;
   font-family: "Avenir";
@@ -489,14 +489,28 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content p {
-  font-size: 16px;
+  font-size: 22px;
+  line-height: 1.5em;
   position: relative;
+  margin-bottom: 30px;
 }
+
+.astronomer-content .post-content ul {
+  font-size: 22px;
+  line-height: 1.5em;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.astronomer-content .post-content li {
+  margin-left: 30px;
+  margin-bottom: 12px;
+  padding-top: 2px;
+}
+
 
 .astronomer-content .post-content a {
   text-decoration: none;
-  font-weight: bold;
-  font-style: italic;
   color: #f98d00;
 }
 .astronomer-content .post-content img{
