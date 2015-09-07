@@ -38,6 +38,10 @@ a img{
   margin: 0 !important;
 }
 
+.mdl-layout__header-row {
+  height: 58px;
+}
+
 .mdl-textfield--expandable {
   width: auto;
 }
@@ -49,7 +53,7 @@ a img{
 .astronomer-logo-image {
   height: 50px;
   width: 180px;
-  padding-top: 16px;
+  padding-top: 14px;
 }
 
 .astronomer-header {
