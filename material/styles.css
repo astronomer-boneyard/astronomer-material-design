@@ -591,6 +591,7 @@ by moving the previous section up.*/
 .astronomer-footer {
   background-color: #241f2e;
   position: relative;
+  font-family: 'Avenir';
 }
 
 .footer-sub-left,
