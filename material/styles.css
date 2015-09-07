@@ -158,7 +158,6 @@ a img{
   width: 400px;
   font-size: 25px;
   line-height: 120%;
-  margin-bottom: 25px;
 }
 /*Label in 'resting mode'*/
 .landing-page-form .astronomer-textfield__label{
@@ -179,10 +178,12 @@ a img{
   top: 10px;
   font-size: 18px;
   opacity: 0.5;
+  top: 5px;
 }
 
 .landing-page-form .astronomer-textfield__label:after {
   background-color: #f98d00;
+  margin-top: -12px;
 }
 
 .landing-page-form .astronomer-email-button{
@@ -194,7 +195,8 @@ a img{
   font-family: "Avenir";
   font-size: 25px;
   text-transform: none;
-  top: -10px;
+  margin-top: 20px;
+
 }
 
 .astronomer-font {
