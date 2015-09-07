@@ -318,12 +318,12 @@ by moving the previous section up.*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
-     -moz-transform: scale(0.5); /* FF3.5+ */
-      -ms-transform: scale(0.5); /* IE9 */
-       -o-transform: scale(0.5); /* Opera 10.5+ */
-          transform: scale(0.5);
+  max-width: 88px;
+  max-height: 88px;
+  padding-top: 40px;
 }
+
+
 
 .astronomer-blog-section .astronomer-section-title {
   text-align: left;
