@@ -1,18 +1,3 @@
-/**
- * Copyright 2015 Google Inc. All Rights Reserved.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 @font-face {
   font-family: "And Black";
@@ -29,6 +14,7 @@
 
 body {
   margin: 0;
+  background-color: #241f2e;
 }
 
 /* Disable ugly boxes around images in IE10 */
@@ -45,16 +31,16 @@ a img{
 }
 
 
+/* HEADER/NAV */
+
 .custom-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
 }
 
-
 .mdl-textfield--expandable {
   width: auto;
 }
-
 
 .astronomer-mobile-title {
   display: none !important;
@@ -99,7 +85,6 @@ a img{
   width: 100px;
 }
 
-
 .mdl-layout__drawer-button {
   display: none;
   background: transparent;
@@ -142,6 +127,7 @@ a img{
   top: 20px;
 }
 
+/* HOME PAGE */
 
 .landing-page-form {
   position: absolute;
@@ -182,7 +168,6 @@ a img{
   line-height: 100%;
   font-family: "Avenir";
 }
-
 
 /*Color for label when selected*/
 .landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
@@ -290,7 +275,6 @@ by moving the previous section up.*/
   left: -15px;
 }
 
-
 .post-layout {
   max-width: 1200px;
   margin: 0 auto;
@@ -319,7 +303,6 @@ by moving the previous section up.*/
 .visit-blog .astronomer-link:hover{
   color: #f98d00;
 }
-
 
 .astronomer-blog-section {
   background: url('/material/assets/images/blog-background.png');
@@ -397,17 +380,14 @@ by moving the previous section up.*/
   width: 99%;
 }
 
-/*CSS for the all post page*/
+/* BLOG LIST */
+
 .astronomer-more-section{
   padding: 10% 10% 10% 10%;
   margin-top: -80px;
   background: #241f2e;
   background-size: auto 100%;
   color: #f1d3ac;
-}
-
-.astronomer-more-section .astronomer-section-title{
-  
 }
 
 .astronomer-more-section .post-excerpt{
@@ -440,27 +420,27 @@ by moving the previous section up.*/
 .astronomer-more-section .post-excerpt a:hover{
   color: #f3d1a5;
 }
-/*CSS for the posts themselves*/
+
+/* BLOG POSTS */
+
 .astronomer-content .content{
-  position: relative;
+  font-family: "Avenir";
+  color: #f1d3ac;
+  max-width: 800px;
   background: #241f2e;
-  background-size: auto 100%;
-  margin-top: -70px;
+  margin: 0 auto;
+}
+
+.content article {
+  padding: 40px 0;
 }
 
 .astronomer-content .post-content {
-  max-width:800px;
-  margin: 0 auto;
-  font-family: "Avenir";
-  padding: 110px 10% 12% 10%;
-  color: #f1d3ac;
-  position: relative;
 }
 
 .astronomer-content .astronomer-mobile-title {
   position: relative;
   top: 120px;
-
 }
 
 .astronomer-content .post-content h2 {
@@ -495,7 +475,7 @@ by moving the previous section up.*/
   margin-bottom: 30px;
 }
 
-.astronomer-content .post-content ul {
+.astronomer-content .post-content ul, ol {
   font-size: 22px;
   line-height: 1.5em;
   position: relative;
@@ -507,7 +487,6 @@ by moving the previous section up.*/
   margin-bottom: 12px;
   padding-top: 2px;
 }
-
 
 .astronomer-content .post-content a {
   text-decoration: none;
@@ -526,12 +505,92 @@ by moving the previous section up.*/
   background: transparent;
 }
 
-/*CSS for the footer*/
+.post .article-image {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden; }
+  .post .article-image .post-image-image {
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-indent: -9999px;
+    padding-top: 33%;
+    z-index: 1; }
+  .post .article-image .post-meta {
+    position: absolute;
+    bottom: 80px;
+    left: 22%;
+    right: 22%;
+    z-index: 999;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; }
+    @media only screen and (max-width: 800px) {
+      .article-image .post-meta {
+        left: 16px;
+        right: 16px; } }
+  .post .article-image .post-title {
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.04em;
+    font-size: 50px;
+    line-height: 1.1;
+    color: white;
+    margin-bottom: 16px;
+    text-shadow: 0px 1px 16px rgba(0, 0, 0, 0.5), 0px 0px 1px rgba(0, 0, 0, 0.5); }
+  .post .article-image .author-image {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 8px;
+    margin-bottom: -10px;
+    float: left;
+    background-size: cover;
+    border-radius: 100%;
+    text-indent: -9999px; }
+  .post .article-image .author-name {
+    display: inline; }
+  .post .article-image .post-meta-text {
+    color: rgba(255, 255, 255, 0.75);
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    white-space: nowrap;
+    text-overflow: ellipsis; }
+    .post .article-image .post-meta-text a {
+      color: rgba(255, 255, 255, 0.75); }
+      .post .article-image .post-meta-text a:hover {
+        color: white; }
+  .post .article-image .fa-angle-down {
+    font-size: 32px;
+    margin: 64px auto 0;
+    color: rgba(255, 255, 255, 0.75); }
+    .post .article-image .fa-angle-down:hover {
+      color: white; }
+  .post .article-image .topofpage {
+    text-decoration: underline; }
+
+
+
+
+
+/* FOOTER */
 .astronomer-footer {
   background-color: #241f2e;
   position: relative;
 }
-
 
 .footer-sub-left,
 .footer-sub-middle,
@@ -595,6 +654,10 @@ by moving the previous section up.*/
 .astronomer-link-menu:hover {
   cursor: pointer;
 }
+
+
+
+
 
 
 
@@ -703,8 +766,9 @@ by moving the previous section up.*/
     padding-top: 10%;
   }
 
-
-  /*CSS for the posts themselves*/
+  .astronomer-content {
+    margin-top: 70px;
+  }
   .astronomer-content .content{
     position: relative;
     background: #241f2e;
@@ -714,7 +778,6 @@ by moving the previous section up.*/
     max-width:800px;
     margin: 0 auto;
     font-family: "Avenir";
-    padding: 20% 10% 11% 10%;
     color: #897e66;
     position: relative;
   }
@@ -722,7 +785,6 @@ by moving the previous section up.*/
   .astronomer-content .astronomer-mobile-title {
     position: relative;
     top: 120px;
-
   }
 
   .astronomer-content .post-content h2 {
@@ -773,13 +835,10 @@ by moving the previous section up.*/
     background: transparent;
   }
 
-
-
   .astronomer-footer .footer-logo{
     position: absolute;
     margin-bottom: -30px;
   }
-
 
   .astronomer-footer .footer-options{
     padding-top: 15%;

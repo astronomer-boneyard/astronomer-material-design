@@ -7,19 +7,69 @@
     <span class="astronomer-mobile-title mdl-layout-title">
       <img class="astronomer-logo-image" src="/material/assets/images/astronomer-logo.png">
     </span>
+
     <article class="{{post_class}}">
-
-        {{! Everything inside the #post tags pulls data from the post }}
         {{#post}}
-            <section class="post-content">
-              <h1>{{title}}</h1>
-              <a name="topofpage"></a>
-              {{content}}
-            </section>
+          <div class="article-image">
+              <div class="post-image-image" style="background-image: url({{image}})">Article Image</div>
+              <div class="post-meta">
+                  <h1 class="post-title">{{{title}}}</h1>
+                  <div class="cf post-meta-text">
+                      <div class="author-image" style="background-image: url({{author.image}})">Blog Logo</div>
+                      <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{author}}</h4> on
+                      <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time> 
+                  </div>
+                  <center><a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a></center>
+              </div>
+          </div>
 
+          <script>
+              (function ($) {
+                  "use strict";
+
+                  $('.article-image').height($(window).height()-70);
+
+                  $(document).ready(function(){
+
+                      var $window = $(window),
+                          $image = $('.post-image-image');
+                      $window.on('scroll', function() {
+                          var top = $window.scrollTop();
+
+                          if (top < 0 || top > 1500) { return; }
+                          $image
+                              .css('transform', 'translate3d(0px, '+top/3+'px, 0px)')
+                              .css('opacity', 1-Math.max(top/700, 0));
+                      });
+                      $window.trigger('scroll');
+
+                      var height = $('.article-image').height();
+                          $('.post-content').css('padding-top', height + 50 + 'px');
+
+                      $(function() {
+                        $('a[href*=#]:not([href=#])').click(function() {
+                          if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                            var target = $(this.hash);
+                            target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                            if (target.length) {
+                              $('html,body').animate({
+                                scrollTop: target.offset().top
+                              }, 500);
+                              return false;
+                            }
+                          }
+                        });
+                      });
+
+                  });
+
+              }(jQuery));
+          </script>
+
+          <section class="post-content">
+            <a name="topofpage"></a>
+            {{content}}
+          </section>
         {{/post}}
-
-
     </article>
-
 </main>
