@@ -322,7 +322,7 @@ by moving the previous section up.*/
 
 
 .astronomer-blog-section {
-  background-color: #1a181e;
+  background: url('/material/assets/images/blog-background.png');
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -401,14 +401,13 @@ by moving the previous section up.*/
 .astronomer-more-section{
   padding: 10% 10% 10% 10%;
   margin-top: -80px;
-  background-color: #241f2e;
+  background: #241f2e;
   background-size: auto 100%;
   color: #fff;
 }
 
 .astronomer-more-section .post-excerpt{
   margin-top: 5%;
-  background: transparent;
 }
 
 .astronomer-more-section .post-excerpt h2{
@@ -440,7 +439,7 @@ by moving the previous section up.*/
 /*CSS for the posts themselves*/
 .astronomer-content .content{
   position: relative;
-  background-color: #241f2e;
+  background: #241f2e;
   background-size: auto 100%;
   margin-top: -70px;
 }
@@ -690,7 +689,7 @@ by moving the previous section up.*/
   /*CSS for the posts themselves*/
   .astronomer-content .content{
     position: relative;
-    background-color: #241f2e;
+    background: #241f2e;
     background-size: auto 110%;
   }
   .astronomer-content .post-content{
