@@ -63,6 +63,7 @@ a img{
 .astronomer-logo-image {
   height: 50px;
   width: 180px;
+  padding-top: 3px;
 }
 
 .astronomer-header {
@@ -251,14 +252,14 @@ a img{
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 200vh;
+  height: 195vh;
   background-color: #1a181e;
   top: 90vh;
 }
 
 .horizon-line{
   position: relative;
-  top:-90px;
+  top: -90px;
 }
 
 .astronomer-info .learn-more-text{
@@ -267,12 +268,13 @@ by moving the previous section up.*/
   max-width: 700px;
   font-family: "Avenir";
   padding-left: 10%;
-  margin-top: 15vh;
+  margin-top: 12vh;
 }
 
 .astronomer-info .learn-more-text p {
   font-size: 32px;
-  line-height: 150%;
+  line-height: 1.3em;
+  padding-bottom: 1em;
 }
 .astronomer-info .learn-more-text span.astronomer-data-text{
   color: #009c8d;
@@ -320,7 +322,7 @@ by moving the previous section up.*/
 
 
 .astronomer-blog-section {
-  background: url('/material/assets/images/blog-background.png');
+  background-color: #1a181e;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -399,17 +401,14 @@ by moving the previous section up.*/
 .astronomer-more-section{
   padding: 10% 10% 10% 10%;
   margin-top: -80px;
-  background: url('assets/images/astronomer-slide1.png') center no-repeat;
+  background-color: #241f2e;
   background-size: auto 100%;
   color: #fff;
 }
 
 .astronomer-more-section .post-excerpt{
   margin-top: 5%;
-  background-color: #897e66;
-  border-style: solid;
-  border-color: #fff;
-  border-width: 2px;
+  background: transparent;
 }
 
 .astronomer-more-section .post-excerpt h2{
@@ -441,7 +440,7 @@ by moving the previous section up.*/
 /*CSS for the posts themselves*/
 .astronomer-content .content{
   position: relative;
-  background: url('assets/images/astronomer-slide1.png') center no-repeat;
+  background-color: #241f2e;
   background-size: auto 100%;
   margin-top: -70px;
 }
@@ -554,6 +553,10 @@ by moving the previous section up.*/
 }
 .astronomer-footer a:hover{
   color: #f3d1a5;
+}
+
+.astronomer-footer p{
+  line-height: 1.3em;
 }
 
 .astronomer-footer .mdl-mega-footer--top-section::after {
@@ -687,7 +690,7 @@ by moving the previous section up.*/
   /*CSS for the posts themselves*/
   .astronomer-content .content{
     position: relative;
-    background: url('assets/images/astronomer-slide1.png') center no-repeat;
+    background-color: #241f2e;
     background-size: auto 110%;
   }
   .astronomer-content .post-content{
