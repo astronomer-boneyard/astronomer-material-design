@@ -857,4 +857,8 @@ by moving the previous section up.*/
   .astronomer-footer .mdl-mega-footer--bottom-section {
     display: none;
   }
+
+  .footer-logo {
+    display: none;
+  }
 }
