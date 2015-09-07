@@ -403,7 +403,11 @@ by moving the previous section up.*/
   margin-top: -80px;
   background: #241f2e;
   background-size: auto 100%;
-  color: #fff;
+  color: #f1d3ac;
+}
+
+.astronomer-more-section .astronomer-section-title{
+  
 }
 
 .astronomer-more-section .post-excerpt{
@@ -449,7 +453,7 @@ by moving the previous section up.*/
   margin: 0 auto;
   font-family: "Avenir";
   padding: 110px 10% 12% 10%;
-  color: #897e66;
+  color: #f1d3ac;
   position: relative;
 }
 
