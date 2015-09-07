@@ -282,6 +282,15 @@ by moving the previous section up.*/
   margin: 0 auto;
 }
 
+.mdl-card__title-text{
+  font-family: "Avenir";
+}
+
+
+.mdl-card__supporting-text span{
+  font-family: "Avenir";
+}
+
 .visit-blog{
   text-align: right;
   font-weight: bold;
@@ -395,6 +404,7 @@ by moving the previous section up.*/
 
 .astronomer-more-section .post-excerpt{
   margin-top: 5%;
+
 }
 
 .astronomer-more-section .post-excerpt h2{
