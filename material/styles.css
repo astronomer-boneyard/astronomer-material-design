@@ -602,6 +602,7 @@ by moving the previous section up.*/
 }
 
 .footer-logo{
+  margin-top: -25px;
   -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
    -moz-transform: scale(0.5); /* FF3.5+ */
     -ms-transform: scale(0.5); /* IE9 */
