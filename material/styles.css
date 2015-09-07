@@ -379,7 +379,8 @@ by moving the previous section up.*/
 
 #sky {
   position: fixed;
-  width: 99%;
+  right:20px;
+  overflow: hidden;
 }
 
 /* BLOG LIST */
@@ -684,7 +685,7 @@ by moving the previous section up.*/
     display: block !important;
     position: absolute;
     left: calc(50% - 95px);
-    top: 15px;
+    margin-top: -75px;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -693,11 +694,6 @@ by moving the previous section up.*/
     display: block;
     background: transparent;
     color: #767777;
-  }
-
-
-  #sky {
-    width: 100%;
   }
 
   .landing-page-form .astronomer-slogan {
