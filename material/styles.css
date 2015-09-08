@@ -1,5 +1,12 @@
 
 @font-face {
+  font-family: "And Black";
+  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
+       url("fonts/and_black.woff") format('woff'),
+       url("fonts/and_black.ttf") format('truetype');
+}
+
+@font-face {
   font-family: "Avenir";
   src: url("fonts/avenir_light.otf") format('opentype');
   font-weight: light;
@@ -290,6 +297,11 @@ by moving the previous section up.*/
   font-family: "Avenir";
 }
 
+.mdl-card__actions .astronomer-link,
+.mdl-card__actions .material-icons {
+  color: #f46100;
+}
+
 .visit-blog{
   text-align: right;
   font-weight: bold;
@@ -302,7 +314,7 @@ by moving the previous section up.*/
 
 .visit-blog .astronomer-link,
 .visit-blog .material-icons{
-  color: #f46100;
+  color: #1a181e;
   -o-transition:.3s;
   -ms-transition:.3s;
   -moz-transition:.3s;
@@ -460,7 +472,6 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content h2 {
-  font-family: "Avenir";
   position: relative;
   font-size: 40px;
 }
@@ -486,12 +497,7 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content p {
-<<<<<<< HEAD
   font-size: 20px;
-=======
-  font-family: "Avenir";
-  font-size: 18px;
->>>>>>> 9bc4e3d4aac42bba929b245c2ce85415c50c4c79
   line-height: 1.5em;
   position: relative;
   margin-bottom: 30px;
@@ -528,7 +534,6 @@ by moving the previous section up.*/
 }
 
 .post .article-image {
-  font-family: "Avenir";
   position: absolute;
   top: 70px;
   left: 0;
@@ -547,10 +552,11 @@ by moving the previous section up.*/
     z-index: 1; }
   .post .article-image .post-meta {
     position: absolute;
-    bottom: 100px;
+    bottom: 80px;
     left: 22%;
     right: 22%;
     z-index: 999;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box; }
@@ -559,8 +565,7 @@ by moving the previous section up.*/
         left: 16px;
         right: 16px; } }
   .post .article-image .post-title {
-
-    font-weight: normal;
+    font-weight: 700;
     font-style: normal;
     letter-spacing: -0.04em;
     font-size: 50px;
@@ -580,9 +585,7 @@ by moving the previous section up.*/
     border-radius: 100%;
     text-indent: -9999px; }
   .post .article-image .author-name {
-    font-family: "Avenir";
-    display: inline;
-  }
+    display: inline; }
   .post .article-image .post-meta-text {
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: -0.02em;
@@ -591,6 +594,7 @@ by moving the previous section up.*/
     text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25), 0px 0px 1px rgba(0, 0, 0, 0.5);
     font-size: 14px;
     overflow: hidden;
+    font-family: Open Sans, MundoSans, "Helvetica Neue", Arial, Helvetica, sans-serif;
     white-space: nowrap;
     text-overflow: ellipsis; }
     .post .article-image .post-meta-text a {
@@ -612,7 +616,7 @@ by moving the previous section up.*/
 
 /* FOOTER */
 .astronomer-footer {
-  background-color: #1a181e;
+  background-color: #241f2e;
   position: relative;
   font-family: 'Avenir';
 }
@@ -693,13 +697,6 @@ by moving the previous section up.*/
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
-
-
-  .post .article-image .post-meta {
-    position: absolute;
-    bottom: 120px;
-  }
-
   .astronomer-navigation-container {
     display: none;
   }
@@ -805,23 +802,11 @@ by moving the previous section up.*/
     background: #241f2e;
     background-size: auto 110%;
   }
-
-  .post .article-image .post-title {
-    font-size: 24px;
-    font-weight: normal;
-  }
-  .post .article-image .author-name {
-    font-size: 20px;
-  }
-  .post .article-image .post-date {
-    display: none;
-  }
-
   .astronomer-content .post-content{
     max-width:800px;
     margin: 0 auto;
-    padding: 30px;
     font-family: "Avenir";
+    color: #897e66;
     position: relative;
   }
 
@@ -855,8 +840,8 @@ by moving the previous section up.*/
     font-size: 20px;
   }
 
-  .astronomer-content .post-content p, li {
-    font-size: 18px;
+  .astronomer-content .post-content p {
+    font-size: 12px;
     position: relative;
   }
 
