@@ -42,10 +42,11 @@ $(function() {
 			var post = posts[i];
 			var excerpt = crop($("<div/>").html(post.content).text(), num_words); // strip html and crop string!
 
-		    template += "<article class='post-excerpt'><span><time>"
-					+ post.date.substr(5, 11) + "</time><h2>" + post.title + "</h2><hr /><p>"
-					+ excerpt + "</p></span><a class='pure-button button-s green-green' href='"
-					+ post.url + "'>lesen</a></article>";
+		    template += "<article class='mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp post-cell'><span>"
+					+"<div class='mdl-card__title'><h2 class='mdl-card__title-text'>"
+					+ post.title + "</h2></div><hr /><div class='mdl-card__supporting-text'><p class='mdl-typography--font-light mdl-typography--subhead'>"
+					+ excerpt + "..."+"</p></div></span><a class='astronomer-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='"
+					+ post.url + "'>Read More...</a></article>";
 		}
 		$("#posts_list").html(template)
 	});
