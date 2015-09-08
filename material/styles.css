@@ -616,7 +616,10 @@ by moving the previous section up.*/
   font-family: 'Avenir';
 }
 
-.footer-sub-left,
+.footer-sub-left{
+  padding-left: 1vw;
+  padding-top: 3vh;
+}
 .footer-sub-middle,
 .footer-sub-right {
   padding-left: 3vw;
@@ -624,7 +627,7 @@ by moving the previous section up.*/
 }
 
 .footer-logo{
-  margin-top: -25px;
+  margin-top: -18px;
   -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
    -moz-transform: scale(0.5); /* FF3.5+ */
     -ms-transform: scale(0.5); /* IE9 */
