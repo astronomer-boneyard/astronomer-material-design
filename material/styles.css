@@ -779,7 +779,7 @@ by moving the previous section up.*/
   }
 
   .astronomer-info .learn-more-text p {
-    font-size: 26px;
+    font-size: 21px;
     line-height: 150%;
     padding-right: 25px;
 
@@ -887,5 +887,9 @@ by moving the previous section up.*/
 
   .footer-logo {
     display: none;
+  }
+
+  .footer-sub-middle, .footer-sub-right {
+    padding-left: 0 !important;
   }
 }
