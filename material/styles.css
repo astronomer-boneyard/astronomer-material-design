@@ -467,6 +467,7 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content h2 {
+  font-family: "Avenir";
   position: relative;
   font-size: 40px;
 }
@@ -492,6 +493,7 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content p {
+  font-family: "Avenir";
   font-size: 18px;
   line-height: 1.5em;
   position: relative;
@@ -581,7 +583,9 @@ by moving the previous section up.*/
     border-radius: 100%;
     text-indent: -9999px; }
   .post .article-image .author-name {
-    display: inline; }
+    font-family: "Avenir";
+    display: inline;
+  }
   .post .article-image .post-meta-text {
     color: rgba(255, 255, 255, 0.75);
     letter-spacing: -0.02em;
@@ -807,12 +811,10 @@ by moving the previous section up.*/
 
   .post .article-image .post-title {
     font-size: 24px;
-    font-family: "Avenir";
     font-weight: normal;
   }
   .post .article-image .author-name {
     font-size: 20px;
-    font-family: "Avenir";
   }
   .post .article-image .post-date {
     display: none;
