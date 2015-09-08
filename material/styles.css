@@ -190,8 +190,8 @@ a img{
   margin-top: -12px;
 }
 
-.mdl-textfield.is-invalid .mdl-textfield__input{
-  color: ##a12003;
+.landing-page-form .mdl-textfield.is-invalid .mdl-textfield__input{
+  border-color: #a12003;
 }
 
 .landing-page-form .astronomer-email-button{
