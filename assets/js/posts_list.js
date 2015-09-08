@@ -44,9 +44,9 @@ $(function() {
 
 		    template += "<article class='mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp post-cell'><span>"
 					+"<div class='mdl-card__title'><h2 class='mdl-card__title-text'>"
-					+ post.title + "</h2></div><hr /><div class='mdl-card__supporting-text'><p class='mdl-typography--font-light mdl-typography--subhead'>"
-					+ excerpt + "..."+"</p></div></span><a class='astronomer-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='"
-					+ post.url + "'>Read More...</a></article>";
+					+ post.title + "</h2></div><div class='mdl-card__supporting-text'><p class='mdl-typography--font-light mdl-typography--subhead'>"
+					+ excerpt + "..."+"</p></div></span><div class='mdl-card__actions'><a class='astronomer-link mdl-button mdl-js-button mdl-typography--text-uppercase' href='"
+					+ post.url + "'>Read More...</a></div></article>";
 		}
 		$("#posts_list").html(template)
 	});
