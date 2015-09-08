@@ -440,6 +440,12 @@ by moving the previous section up.*/
   color: #f3d1a5;
 }
 
+
+/*THANK YOU PAGE*/
+.content .thank-you{
+  font-family: "Avenir";
+}
+
 /* BLOG POSTS */
 
 .astronomer-content .content{
@@ -454,8 +460,6 @@ by moving the previous section up.*/
   padding: 40px 0;
 }
 
-.astronomer-content .post-content {
-}
 
 .astronomer-content .astronomer-mobile-title {
   position: relative;
