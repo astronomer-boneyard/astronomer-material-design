@@ -1,12 +1,5 @@
 
 @font-face {
-  font-family: "And Black";
-  src: url("myfont-webfont.eot?#iefix") format('embedded-opentype'),
-       url("fonts/and_black.woff") format('woff'),
-       url("fonts/and_black.ttf") format('truetype');
-}
-
-@font-face {
   font-family: "Avenir";
   src: url("fonts/avenir_light.otf") format('opentype');
   font-weight: light;
@@ -825,7 +818,6 @@ by moving the previous section up.*/
     margin: 0 auto;
     padding: 30px;
     font-family: "Avenir";
-    color: #897e66;
     position: relative;
   }
 
