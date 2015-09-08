@@ -281,8 +281,10 @@ by moving the previous section up.*/
   color: #009c8d;
 }
 
-.astronomer-info .learn-more-text a {
+.astronomer-info .learn-more-text a,
+.astronomer-info .learn-more-text i{
   font-size: 25px;
+  color: #009c8d;
 }
 
 /*Nasty hack to get the learn more to align*/
