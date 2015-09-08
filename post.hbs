@@ -16,8 +16,10 @@
                   <h1 class="post-title">{{{title}}}</h1>
                   <div class="cf post-meta-text">
                       <div class="author-image" style="background-image: url({{author.image}})">Blog Logo</div>
-                      <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{author}}</h4> on
-                      <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time>
+                      <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{author}}</h4>
+                      <span class="post-date">
+                        on <time datetime="{{date format="YYYY-MM-DD"}}">{{date format='DD MMM YYYY'}}</time>
+                      </span>
                   </div>
                   <center><a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a></center>
               </div>
