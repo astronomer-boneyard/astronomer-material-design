@@ -212,13 +212,13 @@ a img{
 }
 
 .astronomer-font {
-  font-family: 'And Black', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
   color: #F98D00;
   font-weight: 300;
 }
 
 .astronomer-link {
+  font-family: "Avenir";
   text-decoration: none;
   color: #009c8d;
 }
@@ -651,7 +651,7 @@ by moving the previous section up.*/
 }
 
 .mdl-mega-footer--right-section {
-  padding-top: 3vh;
+  padding-top: 1.45vh;
 }
 
 .footer-options {
