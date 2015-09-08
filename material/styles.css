@@ -309,7 +309,7 @@ by moving the previous section up.*/
 
 .visit-blog .astronomer-link,
 .visit-blog .material-icons{
-  color: #1a181e;
+  color: #f46100;
   -o-transition:.3s;
   -ms-transition:.3s;
   -moz-transition:.3s;
@@ -492,7 +492,7 @@ by moving the previous section up.*/
 }
 
 .astronomer-content .post-content p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5em;
   position: relative;
   margin-bottom: 30px;
