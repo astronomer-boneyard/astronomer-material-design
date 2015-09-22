@@ -217,6 +217,10 @@ a img{
   font-weight: 300;
 }
 
+.signup-link {
+  color: #f98d00 !important;
+}
+
 .astronomer-link {
   font-family: "Avenir";
   text-decoration: none;
