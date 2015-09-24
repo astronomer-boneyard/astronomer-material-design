@@ -625,19 +625,31 @@ by moving the previous section up.*/
 
 
 /*ERROR - 404*/
-.error-content{
+.error-page{
+  position: relative;
   height: 100vh;
+  width: 100%
 }
 .error-message .error-text img{
   position: relative;
-  display: table;
-  top: -180px;
-  margin: 0 auto;
   max-width: 50%;
+  display: block;
+  margin: 0 auto;
+  left:-10%;
   min-width: 300px;
 }
 
+.error-page .astronomer-info{
+  position: relative;
+  height: 195vh;
+  background-color: #1a181e;
+  top: 90vh;
+}
 
+.error-page .astronomer-info .horizon-line{
+  position: relative;
+  top: -90px;
+}
 
 /* FOOTER */
 .astronomer-footer {
