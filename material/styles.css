@@ -635,7 +635,8 @@ by moving the previous section up.*/
   max-width: 50%;
   display: block;
   margin: 0 auto;
-  left:-10%;
+  top: -40px;
+  left:-11%;
   min-width: 300px;
 }
 
