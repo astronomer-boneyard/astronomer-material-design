@@ -624,6 +624,18 @@ by moving the previous section up.*/
     text-decoration: underline; }
 
 
+/*ERROR - 404*/
+.error-content{
+  height: 100vh;
+}
+.error-message .error-text img{
+  position: relative;
+  display: table;
+  top: -180px;
+  margin: 0 auto;
+  max-width: 50%;
+  min-width: 300px;
+}
 
 
 
