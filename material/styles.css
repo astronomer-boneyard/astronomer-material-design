@@ -837,7 +837,9 @@ by moving the previous section up.*/
 
   .astronomer-content {
     margin-top: 70px;
+    -webkit-overflow-scrolling: touch;
   }
+
   .astronomer-content .content{
     position: relative;
     background: #241f2e;
