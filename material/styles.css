@@ -768,10 +768,11 @@ by moving the previous section up.*/
   .landing-page-form .astronomer-slogan {
      font-size: 1.5em;
      padding-right: 10%;
+      margin-top: -100px;
   }
 
   .landing-page-form .astronomer-email-form {
-    padding: 10px 0px 10px 0px;
+    padding: 25px 0px 10px 0px;
   }
   /*Color for input and bottom bar on the top form*/
   .landing-page-form .astronomer-textfield__input{
