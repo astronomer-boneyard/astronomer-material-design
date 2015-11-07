@@ -14,7 +14,7 @@
 4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:102:5
 4 verbose stack     at FSReqWrap.oncomplete (evalmachine.<anonymous>:95:15)
 5 verbose cwd /Users/TARDIS3/repos/astronomer-landing-page/content/themes/astronomer-material-design
-6 error Darwin 14.5.0
+6 error Darwin 15.0.0
 7 error argv "node" "/usr/local/bin/npm" "start"
 8 error node v0.12.3
 9 error npm  v2.9.1
