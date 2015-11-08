@@ -37,6 +37,16 @@ a img{
 
 /* HEADER/NAV */
 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+paper-scroll-header-panel {
+  height: 100%;
+}
+
+
 .custom-header .mdl-menu__container {
   z-index: 50;
   margin: 0 !important;
@@ -140,10 +150,9 @@ a img{
 
 .landing-page-form {
   position: absolute;
-  padding-top: 8vh;
+  padding-top: 40px;
   text-align: left;
   padding-left: 10%;
-  height: 90vh;
   width: 100%;
 }
 .landing-page-form .astronomer-slogan {
@@ -156,7 +165,9 @@ a img{
 }
 
 .landing-page-form .astronomer-email-form {
-  padding: 30px 0px 30px 0px;
+  position: relative;
+  margin: -375px 0px 0px 0px;
+  left: 650px;
 }
 /*Color for input and bottom bar on the top form*/
 .landing-page-form .astronomer-textfield__input{
@@ -166,9 +177,10 @@ a img{
   font-size: 25px;
   line-height: 120%;
 }
+
 /*Label in 'resting mode'*/
 .landing-page-form .astronomer-textfield__label{
-  color: #897e66;
+  color: #038F94;
   font-size: 40px;
   width: 400px;
   margin-left: 10px;
@@ -180,7 +192,7 @@ a img{
 /*Color for label when selected*/
 .landing-page-form .mdl-textfield--floating-label.is-focused .astronomer-textfield__label,
 .landing-page-form .mdl-textfield--floating-label.is-dirty .astronomer-textfield__label {
-  color: #897e66;
+  color: #038F94;
   left: -10px;
   top: 10px;
   font-size: 18px;
@@ -189,7 +201,7 @@ a img{
 }
 
 .landing-page-form .astronomer-textfield__label:after {
-  background-color: #f98d00;
+  background-color: #038F94;
   margin-top: -12px;
 }
 
@@ -197,17 +209,16 @@ a img{
   border-color: #a12003;
 }
 
-.landing-page-form .astronomer-email-button{
+.landing-page-form .astronomer-email-button {
   position: relative;
-  padding: 20px 40px;
   background-color:  #f98d00;
+  margin-top: 20px;
+  padding: 35px 30px 35px 30px;
   color: #241f2e;
   font-family: "Avenir";
   font-size: 32px;
+  line-height: 1vh;
   text-transform: none;
-  margin-top: -550px;
-  margin-left: 700px;
-
 }
 
 .astronomer-font {
@@ -256,7 +267,7 @@ a img{
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 100vh;
+  height: 97vh;
   background-color: #1a181e;
   top: 90vh;
 }
@@ -294,7 +305,10 @@ by moving the previous section up.*/
 }
 
 .astronomer-info .connected-image img{
-  width: 200px;
+  position: relative;
+  width: 400px;
+  padding-left: 850px;
+  top: -400px;
 }
 
 
@@ -307,10 +321,41 @@ by moving the previous section up.*/
   padding-top: 95vh;
 }
 
+.astronomer-pricing .pricing {
+  position: absolute; 
+  padding-top:18vh; 
+  text-align:left; 
+  padding-left:19%; 
+  height:90vh; 
+  width:100%;
+}
 
+.astronomer-pricing .pricing table {
+  width:62%;
+}
 
+.astronomer-pricing .pricing table td {
+  color: #f3d1a5; 
+  font-size:24px;
+  line-height:28px;
+}
 
+.astronomer-pricing .pricing h3 {
+  font-size: 35px;
+}
 
+.astronomer-pricing .pricing i {
+  font-size:55%;
+}
+
+.astronomer-pricing .pricing p {
+  width:62%; 
+  margin-top:50px; 
+  position: center; 
+  color: #f3d1a5; 
+  font-size:20px;
+  line-height:28px;
+}
 
 .post-layout {
   max-width: 1200px;
