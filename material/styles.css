@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  background-color: #241f2e;
+  background-color: #433252;
   font-family:'Avenir Next Cyr W00 Regular';
 }
 
@@ -126,7 +126,6 @@ a img{
   text-align: left;
   padding-left: 10%;
   height: 90vh;
-  width: 100%;
 }
 .landing-page-form .astronomer-slogan {
   margin-top: -70px;
@@ -238,11 +237,6 @@ by moving the previous section up.*/
   height: 195vh;
   background-color: #1a181e;
   top: 90vh;
-}
-
-.horizon-line{
-  position: relative;
-  top: -90px;
 }
 
 .astronomer-info .learn-more-text{
@@ -602,12 +596,6 @@ by moving the previous section up.*/
   min-width: 300px;
 }
 
-.error-page .horizon-line img{
-  position: absolute;
-  top:91vh;
-  left:-40%;
-}
-
 
 
 /* FOOTER */
@@ -862,13 +850,6 @@ by moving the previous section up.*/
 
 .error-message .error-text img{
   width: 315px;
-}
-
-
-.error-page .horizon-line img{
-  position: absolute;
-  top:90vh;
-  left:-105%;
 }
 
 
