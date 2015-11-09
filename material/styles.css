@@ -167,7 +167,7 @@ paper-scroll-header-panel {
 .landing-page-form .astronomer-email-form {
   position: relative;
   margin: -375px 0px 0px 0px;
-  left: 650px;
+  left: 750px;
 }
 /*Color for input and bottom bar on the top form*/
 .landing-page-form .astronomer-textfield__input{
@@ -267,7 +267,7 @@ paper-scroll-header-panel {
 by moving the previous section up.*/
 .astronomer-info{
   position: relative;
-  height: 97vh;
+  height: 100vh;
   background-color: #1a181e;
   top: 90vh;
 }
@@ -283,7 +283,7 @@ by moving the previous section up.*/
   max-width: 600px;
   font-family: "Avenir";
   padding-left: 10%;
-  margin-top: 12vh;
+  margin-top: 18vh;
 }
 
 .astronomer-info .learn-more-text p {
@@ -308,8 +308,18 @@ by moving the previous section up.*/
   position: relative;
   width: 400px;
   padding-left: 850px;
-  top: -400px;
+  top: -380px;
 }
+
+
+
+/*Features portion of landing page*/
+.astronomer-features{
+  position: relative;
+  padding-top: 95vh;
+}
+
+
 
 
 
@@ -973,8 +983,6 @@ by moving the previous section up.*/
   top:90vh;
   left:-105%;
 }
-
-
 
   .astronomer-footer .footer-logo{
     position: absolute;
