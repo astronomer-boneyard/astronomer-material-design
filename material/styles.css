@@ -593,18 +593,28 @@ a img{
 
 /*Integration Page*/
 
-.integrations-page{
-  position: relative;
-  height: 260vh;
+.integrations-page {
+  padding: 5% 10%;
 }
 
-.integrations h3{
-  color:#f3d1a5;
+.integrations-page h3{
+  color:#9d907f;
+  font-size: 18px;
+  display: inline;
+}
 
+.integrations ul{
+  list-style-type: none;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.integrations ul li{
+  display:inline;
+  padding: 0 15px 0 0;
+  font-size: 18px;
 }
 
 .integration {
-  font-size: 2vh;
   color:#f3d1a5;
 }
 .integration a{
@@ -613,7 +623,9 @@ a img{
   font-size: 1.25em;
   color:#f3d1a5;
 }
-
+.integration a:hover{
+  color:#ffffff;
+}
 
 
 /*ERROR - 404*/
