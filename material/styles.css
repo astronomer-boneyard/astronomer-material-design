@@ -458,6 +458,31 @@ a img{
     text-decoration: underline; }
 
 
+/*Integration Page*/
+
+.integrations-page{
+  position: relative;
+  height: 260vh;
+}
+
+.integrations h3{
+  color:#f3d1a5;
+
+}
+
+.integration {
+  font-size: 2vh;
+  color:#f3d1a5;
+}
+.integration a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.25em;
+  color:#f3d1a5;
+}
+
+
+
 /*ERROR - 404*/
 .error-page{
   position: relative;
