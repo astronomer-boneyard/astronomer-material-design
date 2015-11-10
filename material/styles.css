@@ -121,6 +121,37 @@ a img{
   padding: 10%;
 }
 
+.intro-section .intro-image img{
+  width:400px;
+}
+
+.intro-section p{
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+
+.intro-section .panel2 img{
+  width:800px;
+}
+
+.intro-section .panel2 p{
+  font-size: 200%;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #ebe2d1;
+  width:390px;
+  margin: 60px auto 0;
+}
+
+.intro-section .panel3 p{
+  font-family:'Avenir Next Cyr W00 Demi';
+  line-height: 1.2;
+}
+
+
+
 .signup-link {
   color: #faa42c !important;
 }
@@ -694,6 +725,38 @@ a img{
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
+  .intro-section .intro-image img{
+    width:130%;
+  }
+
+  .intro-section p{
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+
+  .intro-section .panel2 img{
+    width: 100%;
+  }
+
+  .intro-section .panel2 p{
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 100%;
+  }
+
+  a.request-button {
+    text-decoration:none;
+    padding:15px 30px 18px;
+    font-size: 80%;
+    background-color: #433252;
+    color:#FFF;
+    border-radius: 5px;
+  }
+
+
+
   .astronomer-navigation-container {
     display: none;
   }
@@ -719,6 +782,7 @@ a img{
     display: block;
     background: transparent;
     color: #767777;
+    padding-top: 2%;
   }
 
   .astronomer-blog-section .astronomer-section-title {
