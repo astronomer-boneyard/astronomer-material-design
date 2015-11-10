@@ -462,14 +462,14 @@ a img{
 .about-page{
   background-color: #f5f1e6;
   position: relative; 
-  height: 270vh;
+  height: 100%;
 }
 
 .about-header h3{
   padding-top: 5%;
   text-align: center;
   font-size: 3.5em;
-  line-height: 8vh;
+  line-height: 1.5em;
   font-family: "Avenir Next";
   font-weight: "Demi Bold";
   color: #433251;
@@ -494,32 +494,25 @@ a img{
 
 .about-page .headshots{
   padding-top: 2%;
-  padding-left:23%;
-  padding-right: 22%;
+  max-width: 50%;
+  margin:0 auto;
+}
+
+.headshot-group{
+  text-align: center;
+}
+
+.headshot-person{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+  padding-top: 4em;
+  padding-left: 5%;
 }
 
 .about-page .headshots img{
   width: auto;
   max-width: 200px;
-}
-
-.about-page .headshots div{
-  padding-left: 5%;
-}
-
-.about-page .headshots .headshot-name{
-  font-family: "Avenir Next";
-  font-weight: "Demi Bold";
-}
-
-.about-page .headshots .headshot-title{
-  font-family: "Avenir Next";
-}
-
-.headshot-ry{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
 }
 
 .details{
@@ -530,45 +523,18 @@ a img{
   color:#433251;
   padding-top: 1em;
   font-size: 1.5em;
+  font-family: "Avenir Next";
+  font-weight: "Demi Bold";
 }
 
 .headshot-title{
   color:#65615B;
   padding-top: 1em;
   font-size: 1.25em;
+  font-family: "Avenir Next";
 }
 
 
-.headshot-tim{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-}
-
-.headshot-greg{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-}
-
-.headshot-ben{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-  padding-top: 4em;
-}
-
-.headshot-brad{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-}
-
-.headshot-chris{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-}
 
 .about-investors h3{
   padding-top: 5%;
@@ -864,6 +830,36 @@ a img{
   .footer-sub-middle, .footer-sub-right {
     padding-left: 0 !important;
   }
+}
+
+
+/*About section - mobile*/
+
+.about-header h3{
+  padding-top: 5%;
+  text-align: center;
+  font-size: 2.5em;
+  line-height: 1.2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.about-subheader h4{
+  padding-top: 1%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 2em;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.headshot-person{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+  padding-top: 4em;
+  padding-left: 0%;
 }
 
 
