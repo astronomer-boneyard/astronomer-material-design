@@ -724,7 +724,7 @@ a img{
 }
 
 /**** Mobile layout ****/
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
   .intro-section .intro-image img{
     width:130%;
   }
@@ -733,6 +733,7 @@ a img{
     font-size: 100%;
     font-weight: bold;
     line-height: 1.2;
+    padding-left: 14%;
   }
 
   .intro-section .panel2 img{
