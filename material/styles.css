@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   background-color: #433252;
@@ -456,6 +455,140 @@ a img{
       color: white; }
   .post .article-image .topofpage {
     text-decoration: underline; }
+
+
+/*About Page*/
+.about-page{
+  background-color: #f5f1e6;
+  position: relative; 
+  height: 270vh;
+}
+
+.about-header h3{
+  padding-top: 5%;
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 8vh;
+  font-family: "Avenir Next";
+  font-weight: "Demi Bold";
+  color: #433251;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.about-subheader h4{
+  padding-top: 1%;
+  text-align: center;
+  font-size: 1.5em;
+  font-family: "Avenir Next";
+  color:#65615B;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.about-subheader h4 a{
+  text-decoration: none;
+  color: #433251;
+}
+
+.about-page .headshots{
+  padding-top: 2%;
+  padding-left:23%;
+  padding-right: 22%;
+}
+
+.about-page .headshots img{
+  width: auto;
+  max-width: 200px;
+}
+
+.about-page .headshots div{
+  padding-left: 5%;
+}
+
+.about-page .headshots .headshot-name{
+  font-family: "Avenir Next";
+  font-weight: "Demi Bold";
+}
+
+.about-page .headshots .headshot-title{
+  font-family: "Avenir Next";
+}
+
+.headshot-ry{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.details{
+  padding-top: 1em;
+}
+
+.headshot-name{
+  color:#433251;
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+
+.headshot-title{
+  color:#65615B;
+  padding-top: 1em;
+  font-size: 1.25em;
+}
+
+
+.headshot-tim{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.headshot-greg{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.headshot-ben{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+  padding-top: 4em;
+}
+
+.headshot-brad{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.headshot-chris{
+  display:inline-block;
+  margin:auto;
+  text-align: center;
+}
+
+.about-investors h3{
+  padding-top: 5%;
+  margin-bottom: -1%;
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 8vh;
+  font-family: "Avenir Next";
+  font-weight: "Demi Bold";
+  color: #433251;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.investor-logos img{
+  padding-top: 50px;
+  width: 30%;
+  max-width: 400px;
+  display:block;
+  margin:auto;
+}
 
 
 /*Integration Page*/
