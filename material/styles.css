@@ -804,9 +804,45 @@ a img{
   }
 
 
-.error-message .error-text img{
-  width: 315px;
-}
+  .error-message .error-text img{
+    width: 315px;
+  }
+
+  /*About section - mobile*/
+
+  .about-header h3{
+    padding-top: 5%;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .about-subheader h4{
+    padding-top: 1%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+
+  .headshot-person{
+    display:inline-block;
+    margin:auto;
+    text-align: center;
+    padding-top: 4em;
+    padding-left: 0%;
+  }
+
+  .investor-logos img{
+    padding-top: 50px;
+    width: 50%;
+    display:block;
+    margin:auto;
+  }
 
 
 
@@ -832,35 +868,6 @@ a img{
   }
 }
 
-
-/*About section - mobile*/
-
-.about-header h3{
-  padding-top: 5%;
-  text-align: center;
-  font-size: 2.5em;
-  line-height: 1.2em;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.about-subheader h4{
-  padding-top: 1%;
-  text-align: center;
-  font-size: 1em;
-  line-height: 2em;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-
-.headshot-person{
-  display:inline-block;
-  margin:auto;
-  text-align: center;
-  padding-top: 4em;
-  padding-left: 0%;
-}
 
 
 a.request-button {
