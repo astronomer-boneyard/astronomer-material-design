@@ -43,7 +43,7 @@ a img{
 
 .astronomer-logo-image {
   width: 200px;
-  padding-top: 16px;
+  padding-top: 25px;
 }
 
 .astronomer-header {
@@ -57,7 +57,7 @@ a img{
   height: 60px;
   line-height: 68px;
   background-color: transparent !important;
-  padding-top: 10px;
+  padding-top: 21px;
   border-bottom: 4px solid transparent;
   -o-transition:.3s;
   -ms-transition:.3s;
