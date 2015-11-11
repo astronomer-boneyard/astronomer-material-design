@@ -126,7 +126,7 @@ a img{
 }
 
 .intro-section p{
-  font-size: 200%;
+  font-size: 197%;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -492,7 +492,7 @@ a img{
 /*About Page*/
 .about-page{
   background-color: #ebe2d0;
-  position: relative; 
+  position: relative;
   height: 100%;
 }
 
