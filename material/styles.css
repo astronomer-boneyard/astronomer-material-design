@@ -758,23 +758,12 @@ a img{
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
+
   .intro-section p{
     font-size: 120%;
     font-weight: bold;
     line-height: 1.2;
     width:107%;
-  }
-
-  .intro-section .panel2 img{
-    width: 100%;
-  }
-
-  .intro-section .panel2 p{
-    font-size: 180%;
-    font-weight: bold;
-    line-height: 1.2;
-    max-width: 100%;
-    padding-left: 0%;
   }
 
   a.request-button {
@@ -812,23 +801,43 @@ a img{
 */    margin-top: -20px;
 
   }
-
-  .intro-section .intro-image {
-    padding-right: 0;
-    width: 66%;
+  .intro-section .panel1 div{
     margin: 0 auto;
   }
 
-  .intro-section .intro-text {
-    text-align: center;
+  .intro-section .intro-image{
+  padding-right: 0px;
   }
 
-  .intro-section .panel2 p {
+  .intro-section .intro-image img{
+    margin: 0 auto;
+  }
+
+  .intro-section .intro-text{
+    padding-top:3em;
+  }
+  .intro-section .intro-text p{
+    text-align: center;
+    max-width: 100%
+  }
+
+
+  .intro-section .panel2 img{
+    width: 100%;
+  }
+
+  .intro-section .panel2 p{
     font-size: 21px;
+    font-weight: bold;
+    line-height: 1.2;
+    max-width: 100%;
+    padding-left: 0%;
   }
 
   .intro-section .panel3 p {
     font-size: 21px;
+    text-align: center;
+    max-width: 100%;
   }
 
   .mdl-layout__drawer-button {
