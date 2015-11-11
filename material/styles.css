@@ -126,7 +126,7 @@ a img{
 }
 
 .intro-section p{
-  font-size: 197%;
+  font-size: 197  %;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -500,7 +500,7 @@ a img{
   padding-top: 5%;
   text-align: center;
   font-size: 3.5em;
-  line-height: 1.5em;
+  line-height: 1.2em;
   font-family:'Avenir Next Cyr W00 Demi';
   color: #433251;
   margin-left: 20%;
@@ -523,7 +523,7 @@ a img{
 
 .about-page .headshots{
   padding-top: 2%;
-  max-width: 55%;
+  max-width: 800px;
   margin:0 auto;
 }
 
@@ -535,8 +535,7 @@ a img{
   display:inline-block;
   margin:auto;
   text-align: center;
-  padding-top: 4em;
-  padding-left: 5%;
+  padding: 4em 2% 0;
 }
 
 .about-page .headshots img{
@@ -574,12 +573,20 @@ a img{
   margin-right: 20%;
 }
 
-.investor-logos img{
-  padding-top: 50px;
-  width: 30%;
-  max-width: 400px;
-  display:block;
+.investor-logos {
+  text-align: center;
+  max-width: 800px;
+  margin: 0px auto 50px;
+}
+.investor-logos div {
+  display:inline-block;
   margin:auto;
+  text-align: center;
+  padding: 4em 2% 0;
+}
+
+.investor-logos img {
+  width: 200px;
 }
 
 
