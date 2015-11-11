@@ -491,7 +491,7 @@ a img{
 
 /*About Page*/
 .about-page{
-  background-color: #f5f1e6;
+  background-color: #ebe2d0;
   position: relative; 
   height: 100%;
 }
@@ -501,8 +501,7 @@ a img{
   text-align: center;
   font-size: 3.5em;
   line-height: 1.5em;
-  font-family: "Avenir Next";
-  font-weight: "Demi Bold";
+  font-family:'Avenir Next Cyr W00 Demi';
   color: #433251;
   margin-left: 20%;
   margin-right: 20%;
@@ -512,7 +511,6 @@ a img{
   padding-top: 1%;
   text-align: center;
   font-size: 1.5em;
-  font-family: "Avenir Next";
   color:#65615B;
   margin-left: 20%;
   margin-right: 20%;
@@ -554,8 +552,7 @@ a img{
   color:#433251;
   padding-top: 1em;
   font-size: 1.5em;
-  font-family: "Avenir Next";
-  font-weight: "Demi Bold";
+  font-family:'Avenir Next Cyr W00 Demi';
 }
 
 .headshot-title{
@@ -571,8 +568,7 @@ a img{
   text-align: center;
   font-size: 3.5em;
   line-height: 8vh;
-  font-family: "Avenir Next";
-  font-weight: "Demi Bold";
+  font-family:'Avenir Next Cyr W00 Demi';
   color: #433251;
   margin-left: 20%;
   margin-right: 20%;
@@ -590,7 +586,7 @@ a img{
 /*Integration Page*/
 
 .integrations-page {
-  padding: 0% 10%;
+  padding: 0% 12%;
   background-color: #EBE2D0;
 }
 
@@ -599,8 +595,7 @@ a img{
   text-align: center;
   padding-top: 5vh;
   color: #9D907E;
-  font-family: "Avenir Next";
-  font-weight: "Demi Bold";
+  font-family:'Avenir Next Cyr W00 Demi';
 }
 
 .integrations-page h3{
@@ -609,9 +604,6 @@ a img{
   display: inline;
 }
 
-.custom-integrations{
-  width: 100%;
-}
 
 .integration{
   background-color: #F5F1E5;
@@ -626,6 +618,9 @@ a img{
   width:100%;
 }
 
+.integrations{
+  text-align: center;
+}
 
 /*
 .integrations ul{
@@ -752,24 +747,28 @@ a img{
 @media (max-width: 1050px) {
   .intro-section .intro-image img{
     width:130%;
+    min-width: 150px;
   }
 
   .intro-section p{
-    font-size: 100%;
+    font-size: 120%;
     font-weight: bold;
     line-height: 1.2;
-    padding-left: 14%;
+    padding-left: 8%;
+    width:107%;
   }
+
 
   .intro-section .panel2 img{
     width: 100%;
   }
 
   .intro-section .panel2 p{
-    font-size: 100%;
+    font-size: 180%;
     font-weight: bold;
     line-height: 1.2;
     max-width: 100%;
+    padding-left: 0%;
   }
 
   a.request-button {
@@ -907,6 +906,7 @@ a img{
     line-height: 1.2em;
     margin-left: 10%;
     margin-right: 10%;
+    font-family:'Avenir Next Cyr W00 Demi';
   }
 
   .about-subheader h4{
