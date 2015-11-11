@@ -856,6 +856,7 @@ a img{
   .astronomer-content .content{
     position: relative;
     background-size: auto 110%;
+    -webkit-overflow-scrolling: touch;
   }
   .astronomer-content .post-content{
     max-width:800px;
