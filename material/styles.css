@@ -525,7 +525,7 @@ a img{
 
 .about-page .headshots{
   padding-top: 2%;
-  max-width: 50%;
+  max-width: 55%;
   margin:0 auto;
 }
 
@@ -597,7 +597,7 @@ a img{
 
 .integrations-page .integrations h1{
   text-align: center;
-  padding-top: 3vh;
+  padding-top: 5vh;
   color: #9D907E;
   font-family: "Avenir Next";
   font-weight: "Demi Bold";
@@ -618,14 +618,13 @@ a img{
   display: inline-block;
   width:auto;
   max-width: 250px;
-  margin-top: 2em;
+  margin-top: 0.4em;
   margin-right: 0.1em;
 }
 
 .integration img{
   width:100%;
 }
-
 
 
 /*
