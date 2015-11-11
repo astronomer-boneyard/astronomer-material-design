@@ -1002,6 +1002,7 @@ a.request-button {
   background-color: #433252;
   color:#FFF;
   border-radius: 5px;
+  font-size: 50%;
 }
 a.request-button:hover {
   background-color: #513b5b;
