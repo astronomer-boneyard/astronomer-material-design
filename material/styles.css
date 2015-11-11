@@ -295,7 +295,6 @@ a img{
 .astronomer-more-section{
   padding: 10% 10% 10% 10%;
   margin-top: -80px;
-  background: #241f2e;
   background-size: auto 100%;
   color: #f1d3ac;
 }
@@ -415,7 +414,7 @@ a img{
 
 .post .article-image {
   position: absolute;
-  top: 70px;
+  top: 85px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -836,7 +835,6 @@ a img{
 
   .astronomer-content .content{
     position: relative;
-    background: #241f2e;
     background-size: auto 110%;
   }
   .astronomer-content .post-content{
