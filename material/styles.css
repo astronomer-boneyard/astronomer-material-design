@@ -565,8 +565,6 @@ a img{
   font-family: "Avenir Next";
 }
 
-
-
 .about-investors h3{
   padding-top: 5%;
   margin-bottom: -1%;
@@ -592,29 +590,57 @@ a img{
 /*Integration Page*/
 
 .integrations-page {
-  padding: 5% 10%;
+  padding: 0% 10%;
+  background-color: #EBE2D0;
+}
+
+
+.integrations-page .integrations h1{
+  text-align: center;
+  padding-top: 3vh;
+  color: #9D907E;
+  font-family: "Avenir Next";
+  font-weight: "Demi Bold";
 }
 
 .integrations-page h3{
   color:#9d907f;
-  font-size: 18px;
+  font-size: 3em;
   display: inline;
 }
 
+.custom-integrations{
+  width: 100%;
+}
+
+.integration{
+  background-color: #F5F1E5;
+  display: inline-block;
+  width:auto;
+  max-width: 250px;
+  margin-top: 2em;
+  margin-right: 0.1em;
+}
+
+.integration img{
+  width:100%;
+}
+
+
+
+/*
 .integrations ul{
   list-style-type: none;
   margin: 0 0 10px;
   padding: 0;
 }
+
 .integrations ul li{
   display:inline;
   padding: 0 15px 0 0;
   font-size: 18px;
-}
+}*/
 
-.integration {
-  color:#f3d1a5;
-}
 .integration a{
   text-decoration: none;
   font-weight: bold;
@@ -909,6 +935,10 @@ a img{
     margin:auto;
   }
 
+  /*Integrations Page*/
+  .integrations{
+    text-align: center;
+  }
 
 
   .astronomer-footer .footer-logo{
