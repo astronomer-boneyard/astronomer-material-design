@@ -758,9 +758,6 @@ a img{
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {
-  .astronomer-content{
-    z-index:-1;
-  }
   .intro-section p{
     font-size: 120%;
     font-weight: bold;
@@ -851,6 +848,10 @@ a img{
 
   .post-content{
     padding-top: 10%;
+  }
+
+  .astronomer-content{
+    -webkit-overflow-scrolling: touch;
   }
 
   .astronomer-content .content{
