@@ -858,6 +858,7 @@ a img{
     background-size: auto 110%;
     -webkit-overflow-scrolling: touch;
   }
+  
   .astronomer-content .post-content{
     max-width:800px;
     margin: 0 auto;
