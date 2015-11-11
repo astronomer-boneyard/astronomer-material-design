@@ -121,8 +121,14 @@ a img{
   padding: 10%;
 }
 
+.intro-section .intro-image{
+  padding-right: 30px;
+}
 .intro-section .intro-image img{
-  width:400px;
+  width: 100%;
+}
+.intro-section .intro-text {
+  color: #9d907f;
 }
 
 .intro-section p{
@@ -148,9 +154,10 @@ a img{
 .intro-section .panel3 p{
   font-family:'Avenir Next Cyr W00 Demi';
   line-height: 1.2;
+  font-size: 42px;
+  color: #433252;
+  margin-bottom:30px;
 }
-
-
 
 .signup-link {
   color: #faa42c !important;
@@ -564,7 +571,7 @@ a img{
   padding-top: 5%;
   margin-bottom: -1%;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 34px;
   line-height: 8vh;
   font-family:'Avenir Next Cyr W00 Demi';
   color: #433251;
@@ -750,20 +757,13 @@ a img{
 }
 
 /**** Mobile layout ****/
-@media (max-width: 1050px) {
-  .intro-section .intro-image img{
-    width:130%;
-    min-width: 150px;
-  }
-
+@media (max-width: 900px) {
   .intro-section p{
     font-size: 120%;
     font-weight: bold;
     line-height: 1.2;
-    padding-left: 8%;
     width:107%;
   }
-
 
   .intro-section .panel2 img{
     width: 100%;
@@ -786,8 +786,6 @@ a img{
     border-radius: 5px;
   }
 
-
-
   .astronomer-navigation-container {
     display: none;
   }
@@ -796,17 +794,39 @@ a img{
     overflow: hidden;
   }
 
-  .astronomer-title {
-    display: none !important;
-  }
-
   .astronomer-mobile-title {
     display: block !important;
     position: absolute;
     left: calc(50% - 95px);
-    margin-top: -75px;
     -webkit-transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .astronomer-title {
+    width: 100%;
+    text-align: right;
+  }
+  .astronomer-logo-image {
+    width:150px;
+    padding-top: 13px;
+  }
+
+  .intro-section .intro-image {
+    padding-right: 0;
+    width: 66%;
+    margin: 0 auto;
+  }
+
+  .intro-section .intro-text {
+    text-align: center;
+  }
+
+  .intro-section .panel2 p {
+    font-size: 21px;
+  }
+
+  .intro-section .panel3 p {
+    font-size: 21px;
   }
 
   .mdl-layout__drawer-button {
@@ -826,11 +846,6 @@ a img{
 
   .post-content{
     padding-top: 10%;
-  }
-
-  .astronomer-content {
-    margin-top: 70px;
-    -webkit-overflow-scrolling: touch;
   }
 
   .astronomer-content .content{
@@ -905,9 +920,9 @@ a img{
   /*About section - mobile*/
 
   .about-header h3{
-    padding-top: 5%;
+    padding-top: 40px;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1.8em;
     line-height: 1.2em;
     margin-left: 10%;
     margin-right: 10%;
@@ -917,8 +932,8 @@ a img{
   .about-subheader h4{
     padding-top: 1%;
     text-align: center;
-    font-size: 1em;
-    line-height: 2em;
+    font-size: 1.1em;
+    line-height: 1.4em;
     margin-left: 10%;
     margin-right: 10%;
   }
@@ -931,12 +946,15 @@ a img{
     padding-top: 4em;
     padding-left: 0%;
   }
+  .about-investors h3{
+    font-size: 24px;
+  }
 
   .investor-logos img{
-    padding-top: 50px;
-    width: 50%;
-    display:block;
-    margin:auto;
+    width: 150px;
+  }
+  .investor-logos div{
+    padding-top: 2em;
   }
 
   /*Integrations Page*/
@@ -944,7 +962,9 @@ a img{
     text-align: center;
   }
 
-
+.astronomer-footer p {
+  line-height: 0.5em;
+}
   .astronomer-footer .footer-logo{
     position: absolute;
     margin-bottom: -30px;
