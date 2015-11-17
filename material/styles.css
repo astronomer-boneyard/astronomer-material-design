@@ -70,6 +70,42 @@ a img{
   color: #faa42c;
 }
 
+
+.demo-header{
+  border-width: 1px;
+  border-style: solid;
+  color: #faa42c;
+  border-color: #faa42c;
+  background-color:#433252;
+  text-decoration: none;
+  padding:5px 10px 6px;
+  border-radius: 5px;
+  font-size: 100%;
+}
+
+
+
+.demo-header:hover {
+  background-color: #faa42c;
+  border-color: #faa42c;
+  color:#433252;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+/*  -moz-box-shadow: 0px 0px 7px #9d907f;
+  -webkit-box-shadow: 0px 0px 7px #9d907f;
+  box-shadow: 0px 0px 7px #9d907f;*/
+}
+
+.astronomer-drawer .demo-header{
+  background-color: transparent;
+}
+
+.astronomer-drawer .demo-header:hover{
+  background-color: #f98d00;
+}
+
 .astronomer-navig ation .mdl-navigation__link:hover {
   color: #f3d1a5;
 }
@@ -116,19 +152,8 @@ a img{
 }
 
 /* HOME PAGE */
-
 .intro-section {
   padding: 10%;
-}
-
-.intro-section .intro-image{
-  padding-right: 30px;
-}
-.intro-section .intro-image img{
-  width: 100%;
-}
-.intro-section .intro-text {
-  color: #9d907f;
 }
 
 .intro-section p{
@@ -137,6 +162,41 @@ a img{
   line-height: 1.2;
 }
 
+.intro-section .panel1 .intro-image{
+  padding-right: 30px;
+  width:80%;
+}
+.intro-section .panel1 img{
+  width: 100%;
+}
+.intro-section .panel1 p{
+  color: #9d907f;
+}
+
+.panel1 a.request-button{
+  border-width: 3px;
+  border-style: solid;
+  border-color:#f98d00;
+  color: #f98d00;
+  background-color:#433252;
+  text-decoration:none;
+  padding:15px 30px 18px;
+  border-radius: 5px;
+  font-size: 100%;
+}
+
+.panel1 a.request-button:hover {
+  background-color: #f98d00;
+  border-color: #f98d00;
+  color:#433252;
+  -moz-transition: all 0.1s ease-in;
+  -webkit-transition: all 0.1s ease-in;
+  -o-transition: all 0.1s ease-in;
+  transition: all 0.1s ease-in;
+/*  -moz-box-shadow: 0px 0px 7px #9d907f;
+  -webkit-box-shadow: 0px 0px 7px #9d907f;
+  box-shadow: 0px 0px 7px #9d907f;*/
+}
 
 .intro-section .panel2 img{
   width:800px;
@@ -757,7 +817,7 @@ a img{
 }
 
 
-a.request-button {
+.panel3 a.request-button {
   text-decoration:none;
   padding:15px 30px 18px;
   background-color: #433252;
@@ -765,7 +825,7 @@ a.request-button {
   border-radius: 5px;
   font-size: 100%;
 }
-a.request-button:hover {
+.panel3 a.request-button:hover {
   background-color: #513b5b;
   -moz-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;
@@ -1020,7 +1080,10 @@ a.request-button:hover {
     padding-left: 0 !important;
   }
 
-  a.request-button{
+  .panel1 a.request-button{
+    font-size: 50%;
+  }
+  .panel3 a.request-button{
     font-size: 50%;
   }
 }
