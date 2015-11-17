@@ -153,12 +153,11 @@ a img{
 
 /* HOME PAGE */
 .intro-section {
-  padding: 10%;
+  padding: 7%;
 }
 
 .intro-section p{
   font-size: 197%;
-  font-weight: bold;
   line-height: 1.2;
 }
 
@@ -171,7 +170,9 @@ a img{
 }
 .intro-section .panel1 p{
   color: #9d907f;
-}
+  font-size: 3vh;
+  font-family: 'Avenir Next Cyr W00 Demi';
+  }
 
 .panel1 a.request-button{
   border-width: 3px;
