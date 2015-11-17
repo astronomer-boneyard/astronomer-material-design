@@ -103,7 +103,7 @@ a img{
 }
 
 .astronomer-drawer .demo-header:hover{
-  background-color: #f98d00;
+  background-color: #faa42c;
 }
 
 .astronomer-navig ation .mdl-navigation__link:hover {
@@ -153,7 +153,7 @@ a img{
 
 /* HOME PAGE */
 .intro-section {
-  padding: 7%;
+  padding: 6%;
 }
 
 .intro-section p{
@@ -162,7 +162,7 @@ a img{
 }
 
 .intro-section .panel1 .intro-image{
-  padding-right: 30px;
+  padding-right: 25px;
   width:80%;
 }
 .intro-section .panel1 img{
@@ -170,15 +170,17 @@ a img{
 }
 .intro-section .panel1 p{
   color: #9d907f;
-  font-size: 3vh;
-  font-family: 'Avenir Next Cyr W00 Demi';
+  font-size: 3.5vh;
+  font-weight: bold;
+  line-height: 1.3;
   }
+
 
 .panel1 a.request-button{
   border-width: 3px;
   border-style: solid;
-  border-color:#f98d00;
-  color: #f98d00;
+  border-color:#faa42c;
+  color: #faa42c;
   background-color:#433252;
   text-decoration:none;
   padding:15px 30px 18px;
@@ -187,8 +189,8 @@ a img{
 }
 
 .panel1 a.request-button:hover {
-  background-color: #f98d00;
-  border-color: #f98d00;
+  background-color: #faa42c;
+  border-color: #faa42c;
   color:#433252;
   -moz-transition: all 0.1s ease-in;
   -webkit-transition: all 0.1s ease-in;
@@ -895,10 +897,14 @@ a img{
   .intro-section .intro-text{
     padding-top:3em;
   }
-  .intro-section .intro-text p{
+  .intro-section .panel1 p{
     text-align: center;
-    max-width: 100%
+    max-width: 100%;
+    font-size: 100%;
+    font-weight: bold;
+    line-height: 1.3;
   }
+
 
 
   .intro-section .panel2 img{
@@ -1083,6 +1089,12 @@ a img{
 
   .panel1 a.request-button{
     font-size: 50%;
+  }
+
+  .panel1 .intro-text .button{
+    position:relative;
+    margin-top: -5vh;
+    padding-bottom: 3vh;
   }
   .panel3 a.request-button{
     font-size: 50%;
