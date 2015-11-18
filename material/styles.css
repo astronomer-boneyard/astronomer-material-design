@@ -71,7 +71,7 @@ a img{
 }
 
 
-.demo-header{
+.signup-header{
   border-width: 1px;
   border-style: solid;
   color: #faa42c;
@@ -85,24 +85,24 @@ a img{
 
 
 
-.demo-header:hover {
+.signup-header:hover {
   background-color: #faa42c;
   border-color: #faa42c;
   color:#433252;
-  -moz-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 /*  -moz-box-shadow: 0px 0px 7px #9d907f;
   -webkit-box-shadow: 0px 0px 7px #9d907f;
   box-shadow: 0px 0px 7px #9d907f;*/
 }
 
-.astronomer-drawer .demo-header{
+.astronomer-drawer .signup-header{
   background-color: transparent;
 }
 
-.astronomer-drawer .demo-header:hover{
+.astronomer-drawer .signup-header:hover{
   background-color: #faa42c;
 }
 
@@ -192,10 +192,10 @@ a img{
   background-color: #faa42c;
   border-color: #faa42c;
   color:#433252;
-  -moz-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 /*  -moz-box-shadow: 0px 0px 7px #9d907f;
   -webkit-box-shadow: 0px 0px 7px #9d907f;
   box-shadow: 0px 0px 7px #9d907f;*/
@@ -830,10 +830,10 @@ a img{
 }
 .panel3 a.request-button:hover {
   background-color: #513b5b;
-  -moz-transition: all 0.1s ease-in;
-  -webkit-transition: all 0.1s ease-in;
-  -o-transition: all 0.1s ease-in;
-  transition: all 0.1s ease-in;
+  -moz-transition: all 0.2s ease-in;
+  -webkit-transition: all 0.2s ease-in;
+  -o-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
 }
 
 
